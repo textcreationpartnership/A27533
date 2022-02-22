@@ -1,0 +1,833 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An abridgement of the life of S. Francis Xaverius of the Society of Iesus, new apostle of India and Japony together with some few of the innumerable authentical miracles wrought by him of late years / by W.B.</title>
+            <author>W. B.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1667</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 112 KB of XML-encoded text transcribed from 37 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A27533</idno>
+            <idno type="STC">Wing B205A</idno>
+            <idno type="STC">ESTC R5440</idno>
+            <idno type="EEBO-CITATION">11892760</idno>
+            <idno type="OCLC">ocm 11892760</idno>
+            <idno type="VID">50463</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A27533)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 50463)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 50:6)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An abridgement of the life of S. Francis Xaverius of the Society of Iesus, new apostle of India and Japony together with some few of the innumerable authentical miracles wrought by him of late years / by W.B.</title>
+                  <author>W. B.</author>
+               </titleStmt>
+               <extent>[10], 60, [2] p. : port.  </extent>
+               <publicationStmt>
+                  <publisher>Printed at S. Omers, by Thomas Gevbels,</publisher>
+                  <pubPlace>[S.l.] :</pubPlace>
+                  <date>1667.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Advertisements on p. [1]-[2] at end.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Francis Xavier, --  Saint, 1506-1552.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-12</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-01</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2012-01</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:50463:1" rendition="simple:additions"/>
+            <pb facs="tcp:50463:1"/>
+            <p>AN ABRIDGEMENT OF THE LIFE OF S. FRANCIS XAVERIVS <hi>OF THE SOCIETY OF</hi> IESVS NEW APOSTLE OF INDIA AND JAPONY.</p>
+            <p>Together with ſome few of the innu<g ref="char:EOLhyphen"/>merable Authentical Miracles wrought by him of late years. By W. B.</p>
+            <q>
+               <hi>Rabbi, we know that you are a maſter come from God, for no body can do theſe ſignes which you do, vnles God be with him.</hi> 
+               <bibl>John. 3. v. 2.</bibl>
+            </q>
+            <p>
+               <g ref="char:cross">✚</g>
+            </p>
+            <p>PRINTED At S. OMERS, by THOMAS GEVBELS, 1667.</p>
+            <p>
+               <hi>With Licence.</hi>
+            </p>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:50463:2"/>
+            <head>S. FRANCIS XAVERIUS <hi>his manner of exerciſing acts of the loue of God.</hi>
+            </head>
+            <p>Tranſlated out of his own hand-writing.</p>
+            <l>O God! I loue thee.</l>
+            <l>Nor do I loue thee, to the end that thou ſhouldſt ſaue me:</l>
+            <l>Or, becauſe thou doeſt puniſh with eternal fire</l>
+            <l>Thoſe who do not loue thee.</l>
+            <l>Thou, Thou, my IESUS; didſt embrace</l>
+            <l>All me vpon the Croſs.</l>
+            <l>Thou ſufferedſt nayls, a ſpear,</l>
+            <l>And many an ignominy,</l>
+            <l>Innumerable Dolors,</l>
+            <l>Sweats, and Anguiſhes,</l>
+            <l>And Death. And this for me:</l>
+            <l>Yea for me a ſinner!</l>
+            <l>Why then ſhould I not Ioue thee</l>
+            <l>O moſt louing IESVS?</l>
+            <l>Not to the end that thou ſhouldſt ſaue me in heauen:</l>
+            <l>Or, leaſt thou ſhouldſt eternaly damne me:</l>
+            <l>Nor out of hope of any reward.</l>
+            <l>But, as Thou haſt loued me,</l>
+            <l>So I loue, and will loue thee.</l>
+            <l>Only, becauſe thou art my King:</l>
+            <l>And only, becauſe thou art <hi>God.</hi> Amen.</l>
+         </div>
+         <div type="prayer">
+            <pb facs="tcp:50463:2"/>
+            <pb facs="tcp:50463:3"/>
+            <figure>
+               <head>S. FRANCIS XAVERIVS of the Society of IESVS Apostle of the Indies and Iapony. A PRAIER IN HIS HONOR.</head>
+            </figure>
+            <p>
+               <hi>O God, who <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> pleased to gather to thy church the nations of the Indies by the preaching and miracles of S. FRANCIS: Vouch<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>afe mercifully to grant, that we who reverence his glorious merits, may alſoe imitate the examples of his Vertues, through our Lord Ieſus Christ. etc.</hi>
+            </p>
+            <p>
+               <hi>This picture hath touched his holy Relickes, and by ſuch like pictures many haue receiued divers fauors.</hi> 1666.</p>
+         </div>
+         <div type="biography">
+            <pb facs="tcp:50463:3"/>
+            <head>AN ABRIDGEMENT OF THE life of <hi>S. Francis Xauerius.</hi>
+            </head>
+            <p>S. FRANCIS XAVERIVS by Gods grace new Apoſtle of the Indies and Iapony, had for the place of his Natiuity the Caſtle of Xauier in the Kingdom of Na<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ar; for his extraction, he was deſcended from noble Anceſters; for his education, his Parents no leſſ Pious then Honorable, taught him from his childhood to fear God, and keep himſelf pure from ſin; when he was mature for ſtudies, they ſent him to the Famous Vniuerſity of Paris where he was firſt à ſcholar, and afterwards à Maſter of Philoſophy, but leauing thoſe profaner ſciences, he betook himſelf to the ſacred and more certain ſtudies of Diuinity in the ſame Academy. Here he happily fell in to the Com<g ref="char:EOLhyphen"/>pany and acquaintance of <hi>S, Ignatius,</hi> who by his holy prai<g ref="char:EOLhyphen"/>er and other Pious endeauors drew him to a more ſtrict and perfect Kind of life, and made him one of his firſt Compa<g ref="char:EOLhyphen"/>nions in Founding the Society of <hi>Ieſus</hi> Being now entred into the ſtrait way which leads vnto life, he moſt ſeuerely mortified his body according to the example of the an<g ref="char:EOLhyphen"/>cient holy Fathers For by à ſeuere Interdict he denied him<g ref="char:EOLhyphen"/>ſelf the vſe not only of flesh and wine, but alſo of wheaten bread, contenting himſelf with cours and l<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſſ ſauory meats, and theſe alſo in a very ſparing quantity Morouer oftenti<g ref="char:EOLhyphen"/>mes he wholy abſtained from all Kind of food, ſomtimes for two, otherwhiles for three daies together: this for his diet: his ſleep alſo was very ſparing and shorr, and this other vpon the ground or a poor bed which was litle better. Not wanted he other inuentions to aflict his poor body, of<g ref="char:EOLhyphen"/>tentimes making it all on a go<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t blood with cruel iron whips. To omit the holy reuenge he took vpon himſelf for the leuity of his youth, girding about his thighes ſo ſtrait, with certain litle cords as the fleſh yeelding to them and growing ouer them, they could not be looſed but by an euident miracle, Thus he treated his own body; but he was not more ſeuere to himſelf then he was good and charita<g ref="char:EOLhyphen"/>ble to others. The co<g ref="char:cmbAbbrStroke">̄</g>mon hoſpital was his ordinary lodging
+<pb facs="tcp:50463:4"/> whereſoeuer he came; in which he aſſiſted both the ſo<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> and bodies of thoſe infirm people with ſuch cheerfulnes an<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> alacrity, as thoſe humble charitable ſeruices were comonl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> called his delights, with ſuch mortification and triumph ou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> nature, as he oftentimes drunck vp that filthy water, with which he had washed horrid and incurable vlcers: nay his ſtory teſtifies how, that he might ouercome that horro<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> which nature hath of poor Lazars, laying his mouth to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> fetid vlcer, he greedily ſucked out the purulent matter. This glorious victory ouer himſelf, God Almighty rewar<g ref="char:EOLhyphen"/>ded with a ſtrange delight, which he euer after took in thoſe hu<g ref="char:cmbAbbrStroke">̄</g>ble offices of charity. Morouer, he performed theſe offices of corporal and ſpiritual charity with ſuch diligence and conſtancy, as no weaknes or ſicknes of his own body could make him interrupt them. Hence, at <hi>Bolonia,</hi> when he was become a very picture of death, by the hardship he en<g ref="char:EOLhyphen"/>dured, continual labors, and a quartan ague, he would not for all this giue ouer his publick preaching, cate chizing of children, viſiting of priſons and Hoſpirals,; nay when he was tyed to his bed in the Hoſpital at <hi>Mozambico,</hi> by a ma<g ref="char:EOLhyphen"/>lignant dangerous feauer, he made shift to ſcramble out of it, to aſſiſt à poor frantick mariner who lay rauing vpon the ground, firſt carrying him to his owne bed, and then reſtoring him to his <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>enſes, and afterwards to the grace of God by adminiſtring him the holy Sacraments. Nor was his piety to God himſelf leſſ admirable and notorious, then was his charity to the poor of God for Gods ſake. Such was his vnion with almighty God, and ſuch the ſeruor of his ſpirit in holy praier, as he ſpent whole nights in it; nor, when he was vpon the ſea, were eminent dangers of death and moſt terrible tempeſts able to make him break it off, or in the leaſt to diſturb the quiet of his holy ſoul: and ſomtimes he was ſeized vpo<g ref="char:cmbAbbrStroke">̄</g> by ſuch a ſacred extaſy, as with his eyes fixed vpon heauen he was lifted vp by diuine force from the earth, with his face ſo enflamed, as he liuely repreſented the bur<g ref="char:EOLhyphen"/>ning charity of the Angels; nor being able to bear the hea<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of diuine loue, oftentimes he exclamed, <hi>ſatis eſt Domine, ſa<g ref="char:EOLunhyphen"/>tis eſt, It is enough Bleſſed Lord, it is enough.</hi> Nor had the ho<g ref="char:EOLhyphen"/>ly Saint God Almighty in his heart and mouth, only wh<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <pb facs="tcp:50463:4"/> 
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> was awake, but alſo while he ſlept he was often heard <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>th rauishing ſweetnes to cry out: <hi>O my good Ieſus! <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> whom my ſoul loues! O my Creator! my Lord!</hi> But perhaps honors and dignities would make him chan<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e theſe his pious, and humbly charitable manners; no ſuch matter. For <hi>Iohn</hi> the third King of <hi>Portugal</hi> of worthy memory, demanding ſome of S. <hi>Ignatius</hi> his companions, for the propagating of the Goſpel in the vaſt regions of the Eaſt Indies, <hi>Francis Xauerius</hi> by the aduice of S. Ignatius, was pitched vpon by his Holineſſ Paul the third, who endo<g ref="char:EOLhyphen"/>wed him with moſt ample power, and dignity of Apoſtoli<g ref="char:EOLhyphen"/>cal legat which not withſtanding, he would not accept ether of a ſeruant to aſſiſt him, or money, or any thing els but a poor coat, and a few bookes which he thought, he should not finde in the Indies; Profeſſing, <hi>that he had made a vow of pouerty, and he was reſolued to keep it, hoping that our Lord would prouide him what was neceſſary for his ſeruice, and that he had no need of a ſeruant ſo long as our Lord preſerued his hands and feet, as for going to the Kitchin and accommodating his Chamber he did not think it would diminish his Religious Autority, ſo long as he did not hereby offend God.</hi> The gouernor of India with whome he embarked, could not perſwade him to ſit at his table, the allowance of other paſſengers he accepted of, but without eating any thing of it, he diſtributed it amongſt the neceſſitous; as for himſelf, he liued vpo<g ref="char:cmbAbbrStroke">̄</g> what he begged in the ship, with an vnwearied charity ſeruing the fick night and day in the moſt abiect offices: his bed, as atla<g ref="char:cmbAbbrStroke">̄</g>d it was ordinarily the grou<g ref="char:cmbAbbrStroke">̄</g>d, ſo at ſea it was the cable of the ship. Being arriued in <hi>India</hi> he immediately betook him<g ref="char:EOLhyphen"/>ſelf with a feruor of ſpirit truly Apoſtolical to preach the Goſpel, and with ſuch fruit, God Almighty cooperating by his holy grace and euident miracles, as that he not only refor<g ref="char:EOLhyphen"/>med the depraued manners of the Chriſtians he found there, but alſo regenerated to God many hundred thouſands of the Infidels by the ſacred waters of Baptiſme. For not only amongſt the <hi>Indians, Brachmans,</hi> and <hi>Malauarians,</hi> Apoſto<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ical preaching, which lorg ago had flourished there, but by the fraud of the enemy of mankind was now quite aboli<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hed, by <hi>Xauerius</hi> was reuiued, but alſo he firſt preached the
+<pb facs="tcp:50463:5"/> Goſpel of Chriſt to the <hi>Parauians, Malaians, Iaians, <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>nians, Malacenſians</hi> and <hi>Iaponians</hi> and brought many King and great Princes of thoſe nations to ſubmit their <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> to the ſweet yoak of Chriſt. In order to theſe great conu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r<g ref="char:EOLunhyphen"/>ſions, he was miraculouſly endowed with the perfect know<g ref="char:EOLunhyphen"/>ledge of different languages: ſomtimes when he ſpoke onl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> in one language, diuers people of different languages vnder<g ref="char:EOLunhyphen"/>ſtood him at the ſame time what he ſuffered for the name o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Chriſt in his Apoſtolical labours is incredible. For in thoſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> vaſt Regious, he went through diuers Kingdoms, alwaie<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> aſoot, and very often barefoot, and alſo through ſcore hi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Sands, he was oftentimes perſecuted with contumelies, re<g ref="char:EOLunhyphen"/>proaches and ſcoffes, nay with blowes and ſtones, he ofte<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſuffered shipwrack, he endured wa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>chings, cold and naked<g ref="char:EOLunhyphen"/>nes, hunger and thirſt, contracting by his continual and vn<g ref="char:EOLunhyphen"/>ſupportable labours, moſt grieuous ſickneſſes: but with the great Apoſtle he contemned his life, that he might conſum<g ref="char:EOLunhyphen"/>mate his courſe and miniſtery of the Goſpel, which he had receiued. And which is not a litle admirable, amidſt theſe and his other ſingular vertues, and great things which he did and ſuffered for God, he was ſo humble, that he alwaies wrote vnto his Superior S, <hi>Ignatius</hi> vpon his knees: and as if he had been the vnworthieſt of all, he would be exerciſing himſelf in the moſt abject offices of the houſe: he wore ſuch poor and patched cloths, as the boys in the ſtreet, laughed at him. But he did not more contemne himſelf then God Almighty honored him both aliue and dead; mercifully re<g ref="char:EOLhyphen"/>newing by his ſeruant <hi>Xauerius,</hi> the miracles and prodigies he heretofore wrought to confirm the Doctrin of his firſt Apoſtles. Beſides his miraculous ſpeaking of diuers langua<g ref="char:EOLhyphen"/>ges, the Acts of his Canonization (to omit many other eui<g ref="char:EOLhyphen"/>dent miracles there recorded) make mention of fiue and twenty raiſed by him from death to life. One of which was reſu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>citated in the maner folloving, At the promon<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ory of <hi>Comorino,</hi> as this ſeruant of God was vpon a time prea<g ref="char:EOLhyphen"/>ching in a certain Church to the Infidels, and by reaſon of the hardnes of their hearts, without effect: hauing firſt praied to Almighty God, he commanded a graue to be opened, in which was buryed one that dyed the day before, ſignifying
+<pb facs="tcp:50463:5"/> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>uld again come to life, to confirm the truth of the Chri<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>n Faith, the dead corps then being taken vp, and the sheet <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ned in which it was wrapped, hauing again made his p<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ier to God, he commanded the dead man to liue, who preſentely to the amazement of all, toſe vp aliue. By which <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> notorious a miracle not only thoſe who were preſent, <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>t alſo many others were moue<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to belieue in God. <hi>If this <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rue, as is moſt certain, then no man, can vpon good grounds be<g ref="char:EOLunhyphen"/>lieue the Christian F<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ith, but he muſt alſo belieue the Roman-Ca<g ref="char:EOLhyphen"/>tholik Chriſtian Faith for the Roman-Catholik Chriſtian Faith, was the Faith which S. Francis Xauerius preached to thoſe Infi<g ref="char:EOLhyphen"/>dels, and which God Almighty by this and many other euident miracles confirmed.</hi> Nor did Chriſt our Lord endow this his new Apoſtle, only with the grace of working miracles but al<g ref="char:EOLhyphen"/>ſo with the gift of Propheſy. Frequent eue<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>s which he fore<g ref="char:EOLhyphen"/>told proued him a Prophet. At length, after he had vnder<g ref="char:EOLhyphen"/>gon innumerable and extraordinary labors, after he had to<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> firmed the Roman-Catholick Faith by miracles of all Kind, wrought by him, and after he had left the world ma<g ref="char:EOLhyphen"/>ny rare examples of Apoſtolical vertues, he went from <hi>Sanciano</hi> an Iland of <hi>China</hi> to heauen, vpon the ſecond of December, on a Friday, in the year, 1552. His Feaſt not with<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>tanding is Kept vpon the third of December He liued fif<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y fiue yeares, twelue of them as a Religious of the Socie<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y of <hi>Ieſus,</hi> ten and ſeauen months of thoſe twelue as Apoſtle of the Indies His body after his death was twice o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> many months buryed in quick lime, yet notwithſtanding remains in corrupt to this very year 1666: and is Kept <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ith great veneration at <hi>Goa</hi> the Metropolis of the Eaſt In<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ies, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t being brought to <hi>Malaca</hi> did immediately free that <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> from a moſt terrible plague. God Almighty through <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> interceſſion of this his ſeruant has wrought diuers mira<g ref="char:EOLhyphen"/>les of late years, which haue been approued by Seue<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> P<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ates in their particular Dioceſſes. The Bishop of <hi>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>alaca</hi> r<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>k<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>neth eight hundred wrought in his Dioceſſ <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e. <hi>Pot<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mo</hi> a towne of <hi>Calabria</hi> recounts two hun<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ed forty two wrought in one year, towit in the year <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>6<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>2, And yet nerer vs, Flanders rings of the late miracu<g ref="char:EOLhyphen"/>lous
+<pb facs="tcp:50463:6"/> fauours obtained by the <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> our daies. He has cured madnes, witch craft, blindnes, d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es, fore eyes, necks, arms, breaſts, leggs, and other parts mans body; women in childbearing, and ſuch as were danger at ſea haue found him propitious; other, he <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> freed from ruptures, palſy, and gout, he has driuen away <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> kinds of feauers and deadly di<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eaſes, as the ſole refuge <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the ſick and aflicted. God grant that our poor Country <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>England</hi> alſo, may glory in his protection, and ſupernatur<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> graces: and no doubt but she will, if she be not wanting i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> making her addreſſes to him, <hi>Amen,</hi>
+            </p>
+            <closer>To the greater glory of <hi>God</hi> and S. <hi>Fran<g ref="char:EOLunhyphen"/>cis Xauerius.</hi>
+            </closer>
+            <trailer>Ex Bul. Canon. &amp; vit.</trailer>
+         </div>
+         <div type="imprimatur">
+            <p>Imprimatur</p>
+            <closer>
+               <signed>I. C. de Longueual.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="description_of_miracle">
+            <pb n="1" facs="tcp:50463:6"/>
+            <head>A MIRACLE Wrought at <hi>Naples,</hi> vpon R. F. <hi>Marcellus Maſtrilli</hi> of the Society of <hi>IESVS.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">A</seg>BOVT the end of the year 1633. my Lord the Count of <hi>Mount Royal,</hi> 
+               <note place="margin">An. Dom. 1634</note> then viceroy of <hi>Naples,</hi> hauing deſigned to cele<g ref="char:EOLhyphen"/>brate, in his own Palace, a magnificent Solemnity, in honor of our Bleſ<g ref="char:EOLhyphen"/>ſed Lady, vpon the Sunday within the Octaue of her Immaculate Conception; he ordained a<g ref="char:EOLhyphen"/>mongſt other preparations, that four Altars ſhould be erected, at the four corners of the Court of his Palace; &amp; to the end that nothing ſhould be wanting at them, he aſſigned the care of adorning of them, to four of the chief Nobility of the City. One of which hauing the relation, both of a Kinſman, and alſo of a familiar freind, to R. Father <hi>Marcellus Maſ<g ref="char:EOLhyphen"/>trilli,</hi> he intreated the ſaid Father to aſſiſt him, in the erection of the Altar committed to his charge; who moſt willingly yeelded to his re<g ref="char:EOLhyphen"/>queſt; ſuch was his deſire to concurr, in any manner, to the aduancement of the honor, of
+<pb n="2" facs="tcp:50463:7"/> the euer Bleſſed Virgin; and all things ſuccee<g ref="char:EOLunhyphen"/>ded very happily. Only at night, the ſolemnity being now ouer, as they were taking down the ornaments of the Altar, Father <hi>Marcellus</hi> from below, giuing directions, to one that was looſ<g ref="char:EOLhyphen"/>ning the hangings aboue, by I know not what chance, he aboue let fall a hammer, of about two pound weight, from a loft thirty palms high, vpon the head of the Father, which ſo wounded him in the right temple, that he fell down half dead vpon the ground. Being per<g ref="char:EOLhyphen"/>ceiued to be dangerouſly wounded he was im<g ref="char:EOLhyphen"/>mediately carryed home, and the wound in<g ref="char:EOLhyphen"/>ſtantly ſearched, but more exactly the day fol<g ref="char:EOLhyphen"/>lowing, by the ſurgeons, who iudged him to be in euident danger of his life. For beſides the grieuouſnes of the wound, vpon the fourth day, he was ſeized vpon by a violent feauer, accom<g ref="char:EOLhyphen"/>panied with a defluxion vpon his right eye, &amp; certain other diſtempers, for the moſt part, mortal. In ſuch ſort, that after diuers conſults, and applications of moſt ſoueraign remidies, but all in vain, vpon the one and twentith day of his diſtemper, which was looked vpon as a critical day, both the Phyſitians and ſurgeons, gaue him ouer for a dead man. For that all vpon the ſudden, vpon the beginning of this day, which was the firſt day of the New year, he began to faint, and to feel certain grieuous pains in his ſtomack, and was not able to eat any thing, no nor euen to open his mouth, but a very litle, to receiue any nourriture, for that the nerues of his jaws and muſcles, were become vnſeruiceable. Other ſignes of preſent
+<pb n="3" facs="tcp:50463:7"/> death did alſo diſcouer themſelues. Wherefore many Phyſitians of cheif account, profeſſed openly, again and again, which afterwards alſo they atteſted vpon oath, that <hi>Marcellus</hi> was not curable by any human power. So that his fri<g ref="char:EOLhyphen"/>ends deſired of them, that if they could not ſaue his life, that at leaſt they would prolong it for ſome hours, by thruſting ſome litle bits of meat in to his mouth by force. But his mouth was ſhut ſo cloſe, as that the ſurgeon vpon the ſecond of Ianuary, very hardly, by litle and litle, opened it with two Spoons; and yet notwithſtanding, nether art nor force, nor counſel or command of ſuperiors, was able to make the deſpaired patient, to ſwallow down, euen ſom few drops of liquid ſuſtenance, much leſs to eat any thing, which was ſolid. Beſides what has been ſaid, ſuch a vehement cold and chilneſs ſeized vpon his whole body, as they were not able to expell or mitigate it, by any ſomentations, nor euen by the application of fire it ſelf. Wherefore <hi>Marcellus,</hi> giuen ouer by the Doctors, and deſpaired of by all human art, exſpects death euery hour.</p>
+            <p>In the time of this his ſicknes, he was often viſited by one, who appeared vnto him in a white ſoldiers-coat, with a croſs vpon his breaſt; who often asked him, whether he had rather dy, or liue? whether there were any thing, he deſired he ſhould ask for him of hea<g ref="char:EOLhyphen"/>uen? whether he deſired a wax-taper, or a Pil<g ref="char:EOLhyphen"/>grims ſtaff, both which he brought in his hand? <hi>Marcellus</hi> alwaies anſwered, he was indifferent to any thing, might he but more ſincerely ſerue
+<pb n="4" facs="tcp:50463:8"/> the Diuine Majeſty. Vpon another day, F. <hi>Marcellus</hi> took the freedom, to ask the war<g ref="char:EOLhyphen"/>rior, whether death, or a journey, [for thoſe were the things, which were ſignified by the Taper &amp; Pilgrims ſtaff] were decreed for him in heauen? The warrior anſwered him, he would conſult the Diuine Majeſty, and in due time, and that very ſhortly, let him know; but at preſent, he ſaid it was not lawfull for him, to reueal thoſe ſecrets.</p>
+            <p>
+               <hi>Marcellus</hi> being now, as was ſaid, deſpaired of, the ſame warrior appeared to him again, but attended by a troop of very many others: concerning whom, the Sick perſon asking, who they were, and particularly, whether they were not Iaponian Martyrs, nothing more was at preſent anſwered him, but that they were his friends, and thoſe who would earneſtly co<g ref="char:cmbAbbrStroke">̄</g>mend him to almighty God. The ſame toge<g ref="char:EOLhyphen"/>ther with the ſame attendants, appeared to him immediately before the three daies, in which he was prodigiouſly cured; and <hi>Marcellus</hi> de<g ref="char:EOLhyphen"/>manding, whether perhaps they were not ſouls, that were in Purgatory? the warrior anſwered him again, that they were his dear frinds, and thoſe which were very ſolicitous for all his affairs; but with all told him, that the ſouls in Purgatory were not a litle ſorry for his ſick<g ref="char:EOLhyphen"/>nes, by reaſon whereof, they wanted his help and ſuffrages. Wherefore, replied the Father, methinks it were fitting, I ſhould procure ſome Maſſes and Praiers, to be ſaid for theyr relief by others. By all mea<g ref="char:cmbAbbrStroke">̄</g>s, ſubjoyned the warrior, it were very good to do ſo, nor will they be
+<pb n="5" facs="tcp:50463:8"/> wanting to return your Charity, and ſo diſap<g ref="char:EOLhyphen"/>peared. And F. <hi>Marcellus</hi> procured, many holy ſacrifices and praiers, of his friends, for the faithful departed. Who this was, which appea<g ref="char:EOLhyphen"/>red in a ſoldiers habit, is not known, but out of a letter of F. <hi>Marcellus,</hi> to his freind M. <hi>Antony Tellez,</hi> in which, he wiſhes that his beloued Father, S. <hi>Francis Xauerius,</hi> would vouchſafe, alſo to viſit him, in a white gar<g ref="char:EOLhyphen"/>ment, with a Croſs vpon his breaſt, with a taper and pilgrims ſtaff in his hands, attended by his Royal Train, according to his wonted manner. And indeed S. <hi>Xauerius</hi> at this time, often and familarly appeard vnto him, ſomti<g ref="char:EOLhyphen"/>mes by night, otherwhiles by day, now as he was a praying, and then as he was conuerſing with others, ſomtimes ſitting by his bed-ſide comforting of him, bidding him be of good courage, and in fine filling his ſoul with a hea<g ref="char:EOLhyphen"/>uenly ſweetnes.</p>
+            <p>But now when there was no expectation of any thing but death, S. <hi>Francis Xauerius</hi> ſigni<g ref="char:EOLhyphen"/>fied to a noble matron, that <hi>Marcellus</hi> would not dy of that ſicknes, but was deſtind to do great things and charged her, immediately to acquaint her Confeſſarius hereof, that he might afterwards be a witnes of the prediction.</p>
+            <p>F. <hi>Marcellus</hi> prepares himſelf for death, &amp; rather to ſatisfy his deuotion, then that he had any hopes or deſire of life, with leaue of ſuperiors, makes a vow of going into the <hi>In<g ref="char:EOLhyphen"/>dies</hi> for the help of ſouls, in caſe he ſhould re<g ref="char:EOLhyphen"/>couer; for now he deſired nothing of almighty God, but either Death, or the <hi>Indies.</hi> After
+<pb n="6" facs="tcp:50463:9"/> this, towards night, was adminiſtred him the Sacrament of Extreme Vnction: the diuine Viaticum of the Holy Euchariſt, he was not able to receiue, by reaſon of the hard and cloſe compreſſion of his jaws. Wherefore he deſired, a picture of his patron S. <hi>Francis Xaue<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ius,</hi> ſhould be brought into his chamber, and im<g ref="char:EOLhyphen"/>mediately one was brought out of the next room, which repreſented the Saint in the habit of a pilgrim. The ſick perſon earneſtly be<g ref="char:EOLhyphen"/>ſought him, euer and anon applying his holy Relicks to his throat, that he would not per<g ref="char:EOLhyphen"/>mit him to depart out of this life, without receiuing the Diuine Sacrament In the mor<g ref="char:EOLhyphen"/>ning, aſſured that his praiers were heard, he called for the holy Euchariſt, which he ſwal<g ref="char:EOLhyphen"/>lowed down without any difficulty. This day, which was the third of the New year, he ſpent betwixt life and death. Notwithſtanding, that very night, he told two Fathers, he muſt ſay Maſs the next day, and they asking him where, whether perhaps in heauen, for they imagind him to be out of himſelf, he anſwered, where he knew not, but that he ſhould celebrate the next day, he affirmed again, &amp; with ſuch con<g ref="char:EOLhyphen"/>fidence, as if it had been reueald to him from heauen. Nay, that very night, be treated with F. <hi>
+                  <g ref="char:V">Ʋ</g>incent Carrafa,</hi> then Rector of the College, and afterwards General of the whole Society, concerning his going into the <hi>Indies,</hi> as if he had been certain of it.</p>
+            <p>And now it was about eight a clock at night, when <hi>Marcellus</hi> himſelf thought that he had not a quarter of an hour to liue, and all
+<pb n="7" facs="tcp:50463:9"/> things were ready for his funerals. Many of his brethren of the Society were about him, part of the<g ref="char:cmbAbbrStroke">̄</g> praying, others by pious ſpeeches com<g ref="char:EOLhyphen"/>forting of him, as the time required. Amongſt others, there ſat by his bed ſide, on his right hand, <hi>F. Iulius Ceſar Recupitus,</hi> to whom with a ſmall and weak voice, he ſpake in this man<g ref="char:EOLhyphen"/>ner. I ſeem to my ſelf to be in a certain valley, and to ſee a litle ray of light a great way off. And a while after he ſpoke again, and ſaid that he ſaw as it were a globe or ball deſcen<g ref="char:EOLhyphen"/>ding from heauen, and in it S. <hi>Francis Xaue<g ref="char:EOLhyphen"/>rius</hi> in a moſt reſplendent glory, and with ſo pleaſant and amiable an aſpect, as that in a moment he had driuen away all grief from his heart, and infuſed into his ſoul, ſuch, and ſo laſting a ſweetnes, as he could not though he neuer ſo much deſired it, as he afterwards teſtified, excite in himſelf, any ſenſe of grief and ſorrow; which he moſt earneſtly endea<g ref="char:EOLhyphen"/>uored to do, when all alone he was carried in the ſame coach with the corps of his dead mo<g ref="char:EOLhyphen"/>ther, of which we ſhall ſpeak afterwards, inſo<g ref="char:EOLhyphen"/>much, that the memory of S. <hi>Xauerius</hi> his gracious and ſweet countenance recurring, in ſtead of grief &amp; tears, he was compelled againſt his will to laugh. <hi>F. Recupitus</hi> interpreting thoſe his words, as if he had receiued ſome ſpiritual conſolation in his ſoul, endeauored to excite him to a firm hope of eternal happines. Then F. <hi>Marcellus</hi> ſayd ſome body calld him by his name, but with a low voice: <hi>Marcellus, Mar<g ref="char:EOLhyphen"/>cellus;</hi> &amp; admiring at it, exclamed; Alas! I do not hear well, and ſtretching out his hand,
+<pb n="8" facs="tcp:50463:10"/> gaue a ſigne to thoſe which were preſent to be ſilent. Then ſhutting his eyes, he re<g ref="char:EOLhyphen"/>mained quiet as it were muſing or harkning for a litle ſpace, vntil being calld again, he cried out; <hi>Hinc, Hinc vocor,</hi> I am called hence, I am called hence. And inſtantly he that but euen now was not able to ſtirr himſelf, turnd his body and face to that ſide of the bed whence the voice came. Thoſe which were about him, aſtoniſhed hereat, fix their eies more ſtedfaſtly vpon him, and they hear him ſpeak with a low voice, and giue anſwers as if he were diſcourſing with ſome body, but can hear no body ſpeak to him. They interrupt him calling vpon him, but he takes no notice of what they ſay; inſomuch, that of thoſe which were preſent, ſome thought he was viſited by ſome body from heauen, others that out of himſelf he talked idly. <hi>F. Marius Fontanoroſa</hi> prefect of the Infirmary, that he might better hear and ſee, what <hi>Marcellus</hi> ſaid and did, put himſelf betwixt his bed and the wall. The brother who had care of the ſick following him, hindered by an inuiſible power, was not permitted to go on by S. <hi>Xauerius</hi> who ſtood in his way. <hi>Father Marius</hi> vnderſtood all that F. <hi>Marcellus</hi> ſaid, clearly and diſtinctly. F. <hi>Marcellus</hi> hauing turnd himſelf towards the pic<g ref="char:EOLhyphen"/>ture, of S <hi>Francis Xauerius</hi> in the habit of a Pilgrim, ſeeming to himſelf to be wholly ab<g ref="char:EOLhyphen"/>ſtracted out of the ſight of the chamber where he was and all things els, he ſaw S. <hi>Xauerius</hi> ſtanding betwixt himſelf and the picture, in his full proportion, and in habit very like the
+<pb n="9" facs="tcp:50463:10"/> manner of his repreſentation in the ſaid picture, his countenance gloriouſly reſplendent, and far ſurpaſſing all human features in grace and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>miablenes. To him, S. <hi>Xauerius</hi> with a plea<g ref="char:EOLhyphen"/>ſant countenance, Thus. <hi>Marcellus, what do we do? Had you rather dy or go into the Indies? Marcellus</hi> made anſwer, That liked him beſt, which was moſt pleaſing to Almighty God. The Saint goes on. <hi>Do you remember, that yesterday in the preſence of your Prouincial you made a vow to go into the Indies, in caſe you re<g ref="char:EOLhyphen"/>couerd?</hi> I do temember it, anſwerd <hi>Marcellus. Go to then,</hi> ſaid <hi>S. Xauerius; ſay after me:</hi> and immediately the Saint recited the <hi>Formula</hi> of the Vows made by all of the Society of <hi>JE<g ref="char:EOLhyphen"/>S<g ref="char:V">Ʋ</g>S</hi> in the end of their Nouiſhip, interpo<g ref="char:EOLhyphen"/>ſing certain clauſes, which are noted in a dif<g ref="char:EOLhyphen"/>ferent caracter: all which words as they were repeated by <hi>Marcellus,</hi> were heard by F. <hi>Ma<g ref="char:EOLhyphen"/>rius;</hi> nay, F. <hi>Marcellus</hi> not hearing perfectly ſome of the words recited by S. <hi>Xauerius,</hi> the Saint ſmiling repeated them again. The words by which S. <hi>Xauerius,</hi> incited F. <hi>Marcellus</hi> to deuote himſelf to Almighty God, were theſe following.</p>
+            <p>
+               <q>Almighty and euerlaſting God, I <hi>Marcellus Mastrilli,</hi> though euery way moſt vnworthy of thy diuine ſight, yet co<g ref="char:cmbAbbrStroke">̄</g>fiding in thy good<g ref="char:EOLhyphen"/>nes and infinite mercy, and moued with a de<g ref="char:EOLhyphen"/>ſire to ſerue thee, do vow before the moſt ſa<g ref="char:EOLhyphen"/>cred Virgin Mary, <hi>and thee Holy Father Francis Xauerius,</hi> &amp; the whole court of heauen, to thy Diuine Majeſty, Pouerty, Chaſtity, &amp; Perpe<g ref="char:EOLhyphen"/>tual obedience in the Society of <hi>JES<g ref="char:V">Ʋ</g>S; and eſpecialy</hi>
+                  <pb n="10" facs="tcp:50463:11"/> 
+                  <hi>the Apostolical miſſion of the Indies, which I alſo vowed yersterday before my Father Prouin<g ref="char:EOLhyphen"/>cial:</hi> &amp; I promiſe to enter into the ſame So<g ref="char:EOLhyphen"/>ciety, with intention to ſpend my whole life in it, vnderſtanding all according to the con<g ref="char:EOLhyphen"/>ſtitutions of the ſame Society, <hi>and the Decrees made by Holy Father Francis Xauerius concerning the Indian expedition.</hi> Wherefore I humbly be<g ref="char:EOLhyphen"/>ſeech thee of thy immens bounty &amp; clemency, by the blood of <hi>JES<g ref="char:V">Ʋ</g>S CHRIST, &amp; merits of holy Father Francis Xauerius,</hi> that thou wouldſt be pleaſed to admit as an odor of ſweetnes this holocauſt, <hi>and vow made by me though most vnworthy;</hi> &amp; as thou haſt giuen me to deſire, offer, <hi>and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ow</hi> this, ſo thou wouldſt alſo giue me abundant grace to fulfill it, <hi>and to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hed my blood for thy loue.</hi>
+               </q>
+            </p>
+            <p>This being don, the Holy Father told him he was cured; &amp; commanded him in thanks gi<g ref="char:EOLhyphen"/>uing for the fauor receiued, to kiſs the wounds of Chriſt crucified, whom he held in his hands. Which he hauing deuoutly, and affectuouſly don; the Saint asked him if he had any of his Relicks. Haue you my Relicks? <hi>Marcellus</hi> anſwering that he had, and taking them from vnder his pillow where they lay, S. <hi>Xauerius</hi> ſubioyned; Let them be dear to you. Haue you not alſo Relicks of the Holy Croſs? <hi>Marcel<g ref="char:EOLhyphen"/>lus</hi> anſwering that he had. Go to then, ſaid the Saint, apply them to the part affected. <hi>Mar<g ref="char:EOLhyphen"/>cellus</hi> inſtantly applied them to his temple which was wounded. But S. <hi>Xauerius</hi> making a ſigne with his head, that that was not the place, chan<g ref="char:EOLhyphen"/>ging his ſtaff out of his right hand into his left,
+<pb n="11" facs="tcp:50463:11"/> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ad laying his hand vpon the hinder part of <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is head, he ſignified that there lay the force of his diſtemper, and to that the Reliquary was to be applied, which the ſick man hauing don, the Saint forthwith, bad him repeat after him, what he ſhould ſay. Which was as follows. All hail wood of the croſs; All hail moſt pre<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ious croſs; I dedicate my ſelf wholly to thee for euer: And I humbly beſeech thee, that thou wouldſt wouchſafe to graunt me, though moſt vnworthy, the grace and fauor to ſhed my blood for thee, which the Apoſtle of the Indies did not deſerue to obtain after all his labors. And a litle after.</p>
+            <p>I renounce my parents, family, friends, Italy, and whatſoeuer may retard my miſſion into the Indies: and wholly conſecrate my ſelf to the ſauing of ſouls in India, in the preſence of Holy Father <hi>Francis Xauerius, my, my</hi> Father, Which two laſt words, <hi>Marcellus</hi> added of himſelf; and the Saint ſmiling approued of them, and pleaſantly ſubjoynd: Be of good courage, and be merry for the future; and re<g ref="char:EOLhyphen"/>peat theſe acts euery day: and ſo vaniſhed, <hi>Marcellus</hi> his ſicknes vaniſhing with him. For their diſcours being ended <hi>Marcellus</hi> was ſound and whole, and abſolutely reſtored to perfect health, without feuer, without palſy, without defluxions, without wound, without faintnes, weaknes, palenes, meagernes, yea ſound, whole, ſtrong luſty. Then with a cheerful countenance to the prefect of the Infirmary, thus: Dear Father I am hungry, giue me ſome thing to eat. Whilſt meat was prouided, he deſired thoſe
+<pb n="12" facs="tcp:50463:12"/> which were preſent, to recite alowd the ſolem<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> praier of S. <hi>Francis Xauerius,</hi> and would hau<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> this verſiele, <hi>Ora pro nobis Sancte Franciſce Xa<g ref="char:EOLunhyphen"/>ueri,</hi> S. <hi>Francis Xauerius pray for vs,</hi> repeate<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> thrice, and he anſwered, <hi>
+                  <g ref="char:V">Ʋ</g>t dignus efficiar pr<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>miſſionibus tuis, That I may be made worthy of th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> promiſes.</hi> This being done and meat brought thoſe about him, were in the beginning at <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſtand, what they ſhould beſt do: and wen<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> about to cut his meat into litle bitts, tha<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> he might more eaſily get it down. But he wit<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> a cheerful countenance ſmiled at theyr vai<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> fear, and ſitting vpright in his bed, wit<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> out any thing at his back, fell vpon ſome o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the more ſolid meat: finally he profeſſed tha<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> by the help of S. <hi>Francis Xauerius</hi> he was per<g ref="char:EOLhyphen"/>fectly well, and ſo ſtrong that he was able to to riſe out of bed, and that the next day he would celebrate Holy Maſs as ſoon as the mor<g ref="char:EOLhyphen"/>ning would permit, wherfore thoſe which were preſent, aſſured of his recouery, began to cry out, a miracle, a miracle, a prodigious mira<g ref="char:EOLhyphen"/>cle. The noiſe of it was ſoon ſpread all ouer the College, and the whole co<g ref="char:cmbAbbrStroke">̄</g>munity inſtantly was gatherd together, to congratulate <hi>Mar<g ref="char:EOLhyphen"/>cellus</hi> his happy recouery: &amp; vpon theyr knee<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> before the picture of S. <hi>Francis Xauerius,</hi> his reſtorer to ſound and perfect health, they reci<g ref="char:EOLhyphen"/>ted the <hi>Te Deum laudamus,</hi> together with <hi>Mar<g ref="char:EOLhyphen"/>cellus,</hi> who by this time was riſen out of bed, and had put on his clothes, after he had re<g ref="char:EOLhyphen"/>paired his decayed forces by eating and drin<g ref="char:EOLhyphen"/>king with a very good ſtomack, it being now four daies ſince he had taken any thing. After
+<pb n="13" facs="tcp:50463:12"/> 
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>is he took off the clothes and plaiſters from about his wound, which was ſo perfectly cured, that there remained no ſcar, or mark of it nay the very haires, which had been ſhaued off for the co<g ref="char:cmbAbbrStroke">̄</g>modious applying of ſalues, were grown again. The next day, which was the fourth of Ianuary, he ſaid Maſs in the Church, at the Altar of S. <hi>Francis Xauerius.</hi> And, which is not a litle to be admired, inſtead of being en<g ref="char:EOLhyphen"/>feebled by his paſt pains &amp; diſtempers, he had ſufficient force, that very night, to ſet down in writing this prodigious miracle, with all the particulars of it, and to recount it, all the next day, in a maner without any intermiſſion, to diuers perſons; and aboue all was able to aſſiſt fiue whole hours at a Iuridical enquiry, which was made in the euening, by the Auditor of his Eminency the Cardinal Archbiſhop of <hi>Na<g ref="char:EOLhyphen"/>ples.</hi> Moreouer, from this day forward, ſtrong and luſty, he exerciſed the functions of the So<g ref="char:EOLhyphen"/>ciety. And a litle after for eight days together, night and day, without euer putting off his clothes, he attended his dying mother, vntill he had happily cloſed her eies: then more free &amp; expedite for his Apoſtolical trauels into the Indies.</p>
+            <p>Now if any one deſire to know what became of this happy Father, raiſed in a maner from death to life by S. <hi>Francis Xauerius;</hi> Going into the Indies, according to his holy vow, there to propagate the Ghoſpel of Chriſt, he firſt gaue ſignal teſtimonys of his Heroical vertues at Goa; and finally in Iapony, in the year 1637. according to the preſignification of S. <hi>Xaue<g ref="char:EOLhyphen"/>rius</hi>
+               <pb n="14" facs="tcp:50463:13"/> vnto him, he died for Chriſt at <hi>Nanga<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ach<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> hauing his head cut off with a cimeter vpo<g ref="char:cmbAbbrStroke">̄</g> th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 17 of October, after he had with an incredibl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> conſtancy endured the cruel torments of wa<g ref="char:EOLhyphen"/>ter, and the pit, which thoſe Barbarians are won<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to exerciſe vpon Chriſtians. <hi>Ex R. P. Philip. Alegam. Mort. Illust.</hi>
+            </p>
+            <p>I add<g ref="char:punc">▪</g> out of the R. Fathers of the So<g ref="char:EOLhyphen"/>ciety of IESVS at <hi>Mechlin</hi> in their collectio<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of certain miraculous fauors obtained by the Inuocation of S. <hi>Francis Xauerius</hi> at his Relick<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> there, for the direction of the clients of thi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Great Saint in their Deuotions to him; that the Saint himſelf in an apparition, teſtified to R. F. <hi>Marcellus Mastrilly;</hi> that nothing wa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> more grateful to him, nothing more powerful to obtain his aſſiſtance, then the Deuotion of a <hi>Nouena</hi> or nine dayes before his Canoniza<g ref="char:EOLhyphen"/>tion, that is, from the fourth of March to the twelfth, which was the day vpon which he was canonized for a Saint by his Holines Gregory the XIII. This Deuotion, at F. <hi>Mastril<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>is</hi> per<g ref="char:EOLhyphen"/>ſwaſion, was much in vogue in Italy, &amp; many haue found great comfort by it, particularly in the year 1658. <hi>Alexander Philipuccius</hi> of the Society of <hi>JES<g ref="char:V">Ʋ</g>S,</hi> who ſuddenly recouered of a dangerous ſicknes vpon the laſt day of a like Nouena. So They. And no wonder, that Chriſt our Lord ſhould at that time giue ſpeciall po<g ref="char:EOLhyphen"/>wer to his Saints, to beſtow ſingular fauors vpon their Clients, when by his Vicar vpon earth, he propoſes them as ſpecial Patrons, to the Publick veneration of his Church.</p>
+         </div>
+         <div type="description_of_miracles">
+            <pb n="15" facs="tcp:50463:13"/>
+            <head>Two Miraculous cures approued for ſuch by the moſt Illustrious Archbishop of Mechlin.</head>
+            <div n="1" type="description_of_miracle">
+               <head>The I. Cure of madnes.</head>
+               <p>
+                  <hi>IOhn Gommarts,</hi> ſon of <hi>Iohn Gommarts</hi> 
+                  <note place="margin">An. Dom. 1659. De<g ref="char:EOLhyphen"/>cem. 30.</note> Butcher and of <hi>Sara Diſſon,</hi> being eighteen years old, was aflicted with <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſtrange and Frenetick malady in the week of <hi>All Saints,</hi> which laſted till <hi>Chriſtmas,</hi> ex<g ref="char:EOLhyphen"/>cept that for the ſpace of eight daies he was a litle better, but yet ſo as he did not return to himſelf, and recouer the vſe of his ſenſes. After theſe eight daies, the yong man was tranſ<g ref="char:EOLhyphen"/>ported with ſuch a furious madnes, that two or three ſtrong and luſty men were not able to hold him, ſo that his mother was conſtraind to ty him to his bed hands and feet, with cords and chains of iron. As he was thus ſtraitly tyed, he oftentimes cried out ſo hide<g ref="char:EOLhyphen"/>ouſly, and ſufferd ſuch ſtrange conuulſions, that all were moued to pity and compaſſion, who ſaw him in this ſad condition without being able to afford him any kind of ſuccour. His mother deepely afflicted hereat, vſed the vt<g ref="char:EOLhyphen"/>moſt of her endeauors, and ſought all means imaginable to aſſwage, or in ſome maner to le<g ref="char:EOLhyphen"/>nify the cruel malady of her ſon, but all re<g ref="char:EOLhyphen"/>medies were to no purpoſe. In theſe ſad cir<g ref="char:EOLhyphen"/>cumſtances the Phyſitian ſeing himſelf not able to help the poor miſerable creature, counſeld his mother to implore the aid of heauen, which
+<pb n="16" facs="tcp:50463:14"/> ſhe did diuers times, but without any appea<g ref="char:EOLhyphen"/>rance of amendment, as alſo by the counſel o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> another perſon, ſhe cauſed, but without ſucceſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the ſick party to be exorciſed by Mr. <hi>Andrew Berckmans,</hi> and Mr. <hi>Ambroſe Lache</hi> both of them Prieſts, the later whereof counſeld her to in<g ref="char:EOLhyphen"/>uoke the aſſiſtance of S. <hi>Xauerius,</hi> and with confidence to adreſs herſelf to his Relicks, which are kept in the Church of the Fathers of the Society of IESVS, whereupon ſhe made a vow to communicate, for her life, vpon the Saint's-day, and promiſd to procure a maſs to be ſaid the next day, and to burn a candle in his honor. In purſuit then of her promis ſhe came to the Church of the Fathers of the So<g ref="char:EOLhyphen"/>ciety, &amp; entring into the chappel of our Lady, ſhe inſtantly caſt her eyes vpon a picture, which hangs neer the place where the Relicks of S. <hi>Xauerius</hi> are kept, and lifting vp her heart to this great Saint, and fixing her thoughts vpon him, ſhe conceiued at the ſame time a confi<g ref="char:EOLhyphen"/>dent hope, that he who had wrought ſo many miracles repreſented in the Table before her, would alſo haue pity vpon her, and her ſon. A litle after this ſhe procured a Maſs to be ſaid by a Secular Preiſt in honor of the Saint, hoping to obtain of him by this means ſome ſignal fauor, and ſome comfort for her ſick ſon. In time of the Holy ſacrifice, ſhe felt in<g ref="char:EOLhyphen"/>teriourly an extraordinary tranquillity and an vnwonted ioy, and ſaid within her heart, <hi>O Bleſsed Lord, will my ſon be cur'd then, ſeing that I find my ſelf at ſuch eaſe and quiet?</hi> And her hope, which deſerued not to be fruſtrated,
+<pb n="17" facs="tcp:50463:14"/> 
+                  <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>d immediately its effect; for after Maſs re<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>rning home, ſhe was no ſooner entered into <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r houſe, but ſhe found there her ſon, but <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>en now deſpaired of, in perfect health, and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>holly cur'd of his madnes, who ſaid vnto <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>er as ſhe came in, <hi>Dear mother, I pray giue me <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>me thing to eat for I am almost pin'd,</hi> whereupon <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>holly tranſported with joy ſhe gaue him ſome <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>roth together with a wing of the hen with <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hich it was made, which he are with a good <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ppetit, whereat ſhe was much aſtoniſhed, for <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hat during his infirmity he had eaten as good <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s nothing, and in very deed for fiue or ſix <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aies he had not ſo much as taſted any kind <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f food. Moreouer after he had well eaten, he <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eſought his mother that ſhe would be plea<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ed to looſe him, for that, as he ſaid, he was <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ot able to endure that torment, and that he <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hould dy if they did not vnty his hands and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eet, which was inſtantly done, and half an hour after he clothed himſelf without any one to help him, and ſat him down by the fire<g ref="char:EOLhyphen"/>ſide, where he are again, and diſcourſed with his mother without any ſigne or token of frenſy, and afterwards at night he went to bed and ſlept quietly without euer waking, from ſeuen and a half at night, vntill ſix and a half next morning.</p>
+               <p>Behold how <hi>Iohn Gommarts</hi> in the time of a Maſs recouered his health and the vſe of reaſon, to the aſtoniſhment of all his neigh<g ref="char:EOLhyphen"/>bors, and particularly of the Phyſitian, who left him in the morning in a ſad condition, and found him after dinner perfectly cured, in ſuch
+<pb n="18" facs="tcp:50463:15"/> ſort, that the ſecond day after his cure, pe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>fectly reſtor'd to his ſenſes, he went to Churc<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> to giue thanks to God for the great benefit and ſignal fauors, which he had receiued from his merciful goodnes through the interceſſio<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> of Saint <hi>Xauerius.</hi>
+               </p>
+            </div>
+            <div n="2" type="description_of_miracle">
+               <head>The ſecond cure of blindnes.</head>
+               <p>
+                  <hi>
+                     <seg rend="decorInit">A</seg>NNE van Bael,</hi> natiue of <hi>An<g ref="char:EOLhyphen"/>werp,</hi> 
+                  <note place="margin">An. Dom. 1660. March. 11.</note> being ſeuenteen year<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> old; ſhe had been aflicted for the ſpace of ten years, with a defluxion which fell vpon her left eye, the euil whereof growing euery day worſe and worſe, after three year<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſhe wholly loſt the vſe of her eye. This firſt accident was accompanied with another yet more dangerous, for ſo much as that her right eye was couered with two whites, in ſuch ſort, that hauing loſt the ſight of her left eye, and not being able with her right to en<g ref="char:EOLhyphen"/>dure the light, ſhe became hereby wholly blinde. Her aunt <hi>Mary Bernaerts</hi> moued with compaſſion towards her, vſed the vtmoſt of her power to finde out ſome means to reme<g ref="char:EOLhyphen"/>dy and cure her niece, but finding none in the art of Phyſitians, ſhe put all her confidence in the profuſe bounty of S. <hi>Xauerius:</hi> for when ſhe had vnderſtood at <hi>Anwerp</hi> of her <hi>Aunt Elizabeth Bernaerts,</hi> that he was greatly ho<g ref="char:EOLhyphen"/>nored in the Church of the Society of <hi>IES<g ref="char:V">Ʋ</g>S</hi> at <hi>Mechlin,</hi> &amp; that through his aſſiſtance many were freed from long and troubleſom diſeaſes,
+<pb facs="tcp:50463:15"/> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he perſuaded her Niece to go thither. So that <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t her perſuaſion ſhe forthwith went thither, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd lodged at her aunt Elizabeths houſe, that <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he might more commodiouſly honor &amp; viſit <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he Relicks of the <hi>Saint:</hi> and to the end that <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he might obtain her ſight by his merits, ſhe promiſed after her cure to get a ſolemn Maſs to be ſung, and to burn three wax-candels, moreouer ſhe made a purpoſe to hear Maſs nine daies together in his honor, beginning from the fourth of <hi>March</hi> and continuing to the twelfth. Vpon the fourth day of her De<g ref="char:EOLhyphen"/>uotion ſhe actually experienced, that her con<g ref="char:EOLhyphen"/>fidence in the merits of the glorious <hi>Xauerius</hi> was not in vain, for as much as that then ſhe began with her left eye to ſee the beams of the ſun, and in the nine daies, the two whites which obſcured her right eye, ſo looſed them<g ref="char:EOLhyphen"/>ſelues that ſhe was able to ſee all kinds of ob<g ref="char:EOLhyphen"/>jects. According to the meaſure of her reco<g ref="char:EOLhyphen"/>uery ſhe redoubled her confidence, and the fer<g ref="char:EOLhyphen"/>uor of her Deuotions, in effect, ſhe added to her firſt Nouena a ſecond, during which her ſight was ſo perfectly reſtored, that ſhe was able to make bone-lace, and to read any print though neuer ſo ſmall.</p>
+            </div>
+            <div type="approbation">
+               <head>The Approbation of my Lord the most Illuſtrious Archbishop.</head>
+               <p>ANDREW <hi>by the grace of God and of the Sea Apoſtolick Archbishop of Mechlin &amp;c. To all thoſe who shall read theſe pre<g ref="char:EOLhyphen"/>ſents health in our Lord.</hi> For as much as we
+<pb n="20" facs="tcp:50463:16"/> haue approued a while ago the Relicks of th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> right arm of S. <hi>Francis Xauerius,</hi> and haue iud<g ref="char:EOLunhyphen"/>ged it expedient that they ſhould be publickl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> expoſed, to the end that they might be hono<g ref="char:EOLunhyphen"/>red by all the world, and the ſeruice of Go<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> might be encreaſed by the glory of his Saints &amp; ſeing that after this legal &amp; ſolemn expoſi<g ref="char:EOLunhyphen"/>tion had been made in the Church of the Reuerend fathers of the Society of IESVS of the College and Nouitiate at <hi>Mechlin</hi> theſe Relicks haue been ſo very much hono<g ref="char:EOLhyphen"/>red, as well by the Burgers of this City, as by the inhabitants round about, that the diuine goodnes which has manifeſted the glory of his ſeruant in diuers parts of the world by an infinity of miracles, has made appear, by di<g ref="char:EOLhyphen"/>uers ſudden cures and recoueries, that this deuotion of the faithful was very pleaſing to him, we ſeeking nothing more earneſtly then the honor of God in his Saints, his true mo<g ref="char:EOLhyphen"/>dels, we deſigned of our Canonical Chapter our Reuerend brethren <hi>Diſmas Corten</hi> &amp; <hi>Fran<g ref="char:EOLhyphen"/>cis Vanden Drieſſche</hi> Archprieſt, Licentiates in the law, and Canons, to inform themſelues exactly, according to cuſtom and the ordina<g ref="char:EOLhyphen"/>tions of the Holy Councel of Trent, of all that had been reported concerning certain mi<g ref="char:EOLhyphen"/>raculous cures, which hauing been well exa<g ref="char:EOLhyphen"/>mined, and tried by Phiſitians and lawful wit<g ref="char:EOLhyphen"/>neſſes, obſeruing the form of proceeding in like occaſions and Approbation of miracles: It is aſſuredly true that <hi>Iohn Gommarts</hi> of eigh<g ref="char:EOLhyphen"/>teen years of age, was ſundenly and perfectly cur'd of a dangerous and cruel Frenſy, whilſt
+<pb n="21" facs="tcp:50463:16"/> that his mother <hi>Sara Diſson</hi> made her ſuppli<g ref="char:EOLhyphen"/>cation and praiers for the health of her ſon before the Relicks of S. <hi>Fr<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ncis Xauerius.</hi>
+               </p>
+               <p>Alſo that <hi>Anne</hi> van <hi>Bael</hi> of ſeuenteen years of age, whilſt ſhe performed her Deuotions before the ſame Relicks, was ſo abſolutely cured of a certain malady in her eyes, that ſhe has perfectly recouered the vſe of them, whereas for three years before ſhe had been blinde of her left eye, and her right was dimmed by two white ſpots: we, with the Counſel and Approbation of certain honorable perſons, haue declared in the name of God, that theſe two cures, of <hi>Iohn Gommarts,</hi> and of <hi>Anne van Bael,</hi> as appeared by the precedent infor<g ref="char:EOLhyphen"/>mations, were ſupernatural and miraculous, &amp; that they may be attributed to the interceſſion of S. <hi>Francis Xauerius,</hi> &amp; we haue alſo declared at this very inſtant, that we our ſelues haue had three ſtones happily cut from vs, the ſucceſs whereof we had recommended with great con<g ref="char:EOLhyphen"/>fidence to this glorious Saint, and we approue the ſame by theſe preſents, exhorting all the faithful to reuerence theſe Relicks, to the end that by the mediation of S. <hi>Francis Xauerius</hi> they may be worthy to be cured of all ſorts of infirmities both of body and minde.</p>
+               <closer>
+                  <dateline>Giuen at Bruxelles in our Archiepiſcopal Pallace, vnder our ſigne and ſeal, <date>the tenth of May, 1660.</date>
+                  </dateline>
+                  <signed>Was ſubſcribed <hi>ANDREW</hi> Archbiſhop of Mechlin.</signed> 
+                  <hi>And ſealed with his own Great ſeal with red wax, as appeares by the Original.</hi>
+               </closer>
+            </div>
+         </div>
+         <div type="approbation">
+            <pb n="22" facs="tcp:50463:17"/>
+            <head>
+               <hi>The approbation or confirmation of a miraculous fauor obtained by innocating</hi> S. Francis Xauerius <hi>before his Holy Relicks in the Church of the Society of JES<g ref="char:V">Ʋ</g>S at Bruges, by the most Illustrious</hi> Robertus de Haynin <hi>Bishop of Bruges.</hi>
+            </head>
+            <p>
+               <hi>RObertus De Haynin by the grace of God, and of the Sea Aposto<g ref="char:EOLhyphen"/>lick</hi> 
+               <note place="margin">An. Dom. 1660.</note> 
+               <hi>Bishop of Bruges and here<g ref="char:EOLhyphen"/>ditary Chancellor of Flanders; To all thoſe who ſhall ſee, read, or hear read this preſent Approba<g ref="char:EOLhyphen"/>tion, Greeting in our Lord.</hi>
+            </p>
+            <p>The great God, who is worthy of all praiſe in his Saints, is moſt of all to be honored in thoſe, by whom vpon earth he works won<g ref="char:EOLhyphen"/>derful miracles, clear demonſtrations of their ſanctity, and an atteſtation of their ſuperemi<g ref="char:EOLhyphen"/>nent prerogatiues in heauen. One of which is the moſt Holy Apoſtle of India and Iapony, Prieſt of the Society of <hi>JES<g ref="char:V">Ʋ</g>S,</hi> and vnwea<g ref="char:EOLhyphen"/>ried promulger of that holy Name, S. <hi>Franci<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Xauerius,</hi> a moſt true, yea a continual <hi>Thauma<g ref="char:EOLhyphen"/>turg</hi> of this our age. Whom, beſides the remoteſt Indies, Italy highly co<g ref="char:cmbAbbrStroke">̄</g>mends, Spayn honores, Germany praiſes, Bohemia prayes to, and ſerues, France extolls, the whole Netherlands experiment as ſuch; and of late Flanders one of the prime Prouinces of the Netherlands, and Bruges one of her faireſt towns, and in the ſame town <hi>Mary Pulynck</hi> daughter to <hi>Henry Pulyuck</hi> and <hi>Mary Brouckmans</hi> his wife, very
+<pb facs="tcp:50463:17"/> honorable Burgers of Bruges, &amp; wife to <hi>Leo<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ard Nariſſien,</hi> has actually experienc'd the ſame: who, by a particular, and truly wonderful fa<g ref="char:EOLhyphen"/>uor, as ſhe was calling vpon this Saint, was by God almighty miraculouſly and ſuddenly cu<g ref="char:EOLhyphen"/>red of a grieuous infirmity, ſo that ſhe ſeems to haue been born to encreaſe the glory of <hi>S. Xauerius.</hi> As ſhe was 21. years old [ſhe is now eight and thirty] and in the winter-time was going along the ſtreets, an vntoward boy hit her with a hard-frozen ſnow-ball vpo<g ref="char:cmbAbbrStroke">̄</g> her right breaſt, a very tender part in women, ſo that through the greatnes of the pain ſhe was for<g ref="char:EOLhyphen"/>ced to go to bed, and began to be very ill vpon it. But the Doctors and ſurgeons being ſtrait called to her, the pain was a litle and for a ſhort time diminiſhed, but the euil was not expelled. For the blow of the ſnow-ball en<g ref="char:EOLhyphen"/>tring further then they imagined, breeding corruption, and taking deeper and deeper roo<g ref="char:EOLhyphen"/>ting; many years in the winter-time, eſpeci<g ref="char:EOLhyphen"/>ally when the air was enclined to ſnow, ſhe ſuffered a new intolerable pain, mixt with pri<g ref="char:EOLhyphen"/>cking and cold, in ſuch ſort that the miſera<g ref="char:EOLhyphen"/>ble woman ſometimes got one infirmity, other whiles another, and paſſed ouer day and night without ſleeping or reſting. Yea the ſore breaſt ſwelling ſomtimes as bigg as two, became vnfit to be ſuckt by the two children, which ſhe bare during this euil, ſeing that the ſame bre<g ref="char:EOLhyphen"/>aſt gaue ſomtimes abundance of filthy matter inſtead of milk. Nay at laſt, as the end will ſhew, it came to a true &amp; putrifying cancker, an euil moſt an end incurable. For the expel<g ref="char:EOLhyphen"/>ling
+<pb n="24" facs="tcp:50463:18"/> whereof diuers Doctors of Phyſick wer<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> called together to a conſult. Nor content her<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> with, they ſought the aduice of diuers Doc<g ref="char:EOLhyphen"/>tors more remote, and called them on purpo<g ref="char:EOLhyphen"/>ſe to her; by whoſe counſel hauing vſed diuer<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> plaiſters, eſpecially to lenify &amp; ſoften it, th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> pain and alſo the aboue mentioned ſwelling as to any thing that was to be ſeen without, wholly vaniſhed. The euil notwithſtanding in very deed ſpreading it ſelf within, &amp; tormen<g ref="char:EOLhyphen"/>ting the infirm perſon with ſharp prickings &amp; and ſhootings, there broke forth after ſome months another ſwelling, accompanied with many and greiuous pains, that for the ſpace of ſix weeks it wholly took away her ſleep, &amp; conſequently almoſt her reaſon, and in like manner all hope from Doctros of being able to cure her: ſeing that, as they ſaid, the can<g ref="char:EOLhyphen"/>cker was now faſt to the ribbs, for which rea<g ref="char:EOLhyphen"/>ſon this great euil was not curable euen by the cutting off of the breaſt, a wonted but notwithſtanding a dangerous remedy euen as to the life of the patient. Whereupon they judged that nothing more was to be don to her, only ſome comfortable remedies were to be applied, to prolong her life for a time.</p>
+            <p>Afterwards in the ſame breaſt there bread a litle vlcerous ſore, which being opened was the forerunner of two and twenty more. Out of which there coming nothing but a puru<g ref="char:EOLhyphen"/>lent moyſture, vpon new aduice they applied to it leeches, which ſucked out of the ſame breaſt well nigh forty ounces of blood. When then all theſe things had been made proof of
+<pb n="25" facs="tcp:50463:18"/> to no purpoſe and without effect by the Do<g ref="char:EOLhyphen"/>ctors &amp; skilfulleſt ſurgeons, they vnanimouſly <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>udged, that the wit of man had no more to do here, but that the matter muſt wholly be commited to God; and admoniſhed the ſick party to receiue the moſt Holy Sacraments of the Holy Church, which are neceſſary for thoſe who are in danger of death, quietly and contentedly to enter in to the way which leads to eternity, and for good and all to ſet her houſe in order. But when the good woman ſaw that her health was deſpaired of, and that no human help could ſuccor her, ſhe reſo<g ref="char:EOLhyphen"/>lued with herſelf to make her addreſs to Al<g ref="char:EOLhyphen"/>mighty God; and with a liuely confidence, and ſtrong faith looking vpon a Picture hard by her of S. <hi>Francis Xauerius,</hi> ſhe ſaid within herſelf: This Saint, who is the friend of Al<g ref="char:EOLhyphen"/>mighty God, and my protector in all my in<g ref="char:EOLhyphen"/>digencyes; and who has made himſelf great by the wonders which he daily works: and who by his merits, and prompt charity is wont to aid, and help the miſerable, will pray for me and my health to the ſupreme God: and by his interceſſion, wil obtain for me of the Au<g ref="char:EOLhyphen"/>thor of nature, that which ſurpaſſes all human power. But in the mean time her ſicknes dayly encreaſing and growing wors, and together a true loue to S. <hi>Xauerius</hi> alſo encreaſing in her, at laſt ſhe reſolued, prouided her ſtrength would permit, together with her husband vpon the twentith of May 1660. to viſit the famous Church of the Fathers of the Society of <hi>JE<g ref="char:EOLhyphen"/>S<g ref="char:V">Ʋ</g>S,</hi> dedicated to S. <hi>Xauerius,</hi> in the town of
+<pb n="26" facs="tcp:50463:19"/> Bruges, and there to cleanſe her ſoul by the Holy Sacrament of Confeſſion, and to add new ſtrength to the ſame by the moſt wholeſome food of the Diuine bread: and thus by the hands of the Saint, to offer vp to the good &amp; great God both the Sacraments, beſides the praiers of others who had taken vpon them to do the ſame at another Altar renowned for the inuocation of S. <hi>Xauerius,</hi> and hereby to expect a moſt certain remedy of her euil.</p>
+            <p>So then the day appointed being now come, all her pains and achings, which were much encreaſed, ſeemed as if they would oppoſe her good reſolutions: but ſhe notwithſtanding not much heeding them, goes very early in the morning to the Church, deſirous to accom<g ref="char:EOLhyphen"/>pliſh the promiſe of her good will: ſhe goes to confeſſion, and afterwards to Holy Com<g ref="char:EOLhyphen"/>munion. Then being riſen vp from the Com<g ref="char:EOLhyphen"/>munion banck; commending all her affairs from the bottom of her heart to God, and S. <hi>Xauerius,</hi> &amp; begging of him her health with feruent praiers, ſhe fell into a ſownd before his picture at the firſt pillar of the body of the Church, againſt which ſhe leaned as ſhe ſat vpon her knees. But being now after a litle time come again to herſelf, and perceiuing alſo in her ſelf a ſudden change: to wit that the ſwelling of her breaſt was falne, and that ſhe was freed from all pains and achings, with which notwithſtanding heretofore, yea vpon that very day, ſhe had been ſorely tormented; ſhe riſes vp amazed, and leapes for joy, and with an extraordinary gladnes of heart ſhe gre<g ref="char:EOLhyphen"/>atly
+<pb n="27" facs="tcp:50463:19"/> bleſſes the good God, the author of all good things; and his great friend S. <hi>Xauerius,</hi> her protector and truſty helper in the her mi<g ref="char:EOLhyphen"/>ſeries, &amp; praiſes them with a thouſand thankes.</p>
+            <p>All theſe things being don, ſhe returned towards home very jocond and ouerjoyed, re<g ref="char:EOLhyphen"/>counting the wonders of God wrought in her by <hi>S. Francis Xauerius,</hi> to her husband not a litle aſtoniſhed at this ſo ſudden a change; aſ<g ref="char:EOLhyphen"/>ſuring him that there was nothing of the pain, nothing of the ſmart remaining, which but a few houres agon was ſo great &amp; grieuous; ſhew<g ref="char:EOLhyphen"/>ed him alſo her breaſt ſo falne of its ſwelling, that her clothes which before were too ſtrait, were now much too wyde, in fine that ſhe felt herſelf perfectly cured.</p>
+            <p>Being come home, her breaſt was ſearched in the preſence of her husband: inſtantly the ſurgeons were ſent for, her friends called in: who all vnanimouſly Confeſſed, that this ſo in<g ref="char:EOLhyphen"/>ueterate an euil, now was wholly vaniſhed: that the breaſt was now cured, and the cancker gon, but Diuinely, miraculouſly, &amp; aboue all human power: attributing the cure to the Diuine mer<g ref="char:EOLhyphen"/>cy alone, moued herevnto by the merits, and in<g ref="char:EOLhyphen"/>uocation of S. <hi>Francis Xauerius.</hi> The ſores which remained were within a few daies dried vp, and hardened, no matter more coming out of them, all the ſwelling that remained vaniſhed, &amp; the before ſick, but now well parties appetite retur<g ref="char:EOLhyphen"/>ned to her again: the meat, which before was prohibited her, and in ſuch like ſickneſſes is deadly, ſhe now eates freely and without any prejudice to her health: ſo that of ſo great an
+<pb n="28" facs="tcp:50463:20"/> euil ſhe retaines nothing but the bare memory, and to refreſh the memory of it, to the end ſhe may continually thank God for ſo great a be<g ref="char:EOLhyphen"/>nefit, a ſcarr or hardnes, but very litle, procee<g ref="char:EOLhyphen"/>ding from the drying vp of the veyns of the breaſt, without the remaining within of any root, or ſeed of the foregoing infirmity, yea or any danger of falling into it again.</p>
+            <p>After all theſe things with the declaration of many honorable Perſons, as alſo with the in<g ref="char:EOLhyphen"/>formatio<g ref="char:cmbAbbrStroke">̄</g>s or examen, &amp; inſtructions hereabout, legally and duely taken before our coming to the Epiſcopal Seat of Bruges, according to the wonted order and rules of the law, had been repreſented vnto vs; and after we had vnder<g ref="char:EOLhyphen"/>ſtood &amp; attentiuely obſerued all; hauing more<g ref="char:EOLhyphen"/>ouer in our Perſon heard the moſt experienced Doctors of Phyſick, &amp; the ſurgeons, who with theyr own eies had ſeen the ſame, confirming with oath that the aboue-related cure muſt ne<g ref="char:EOLhyphen"/>eds be miraculous, and aboue the power of nature; and now at laſt hauing alſo asked the Counſel of many, who were verſed in the ſtu<g ref="char:EOLhyphen"/>dies of Diuinity, and in the Laws, and of ſpiri<g ref="char:EOLhyphen"/>tual perſons in Eccleſiaſtical dignities; and now hauing maturely conſidered all things here<g ref="char:EOLhyphen"/>about; hauing alſo inuocated the name of God, we haue judged &amp; declared, as by theſe preſents we judge and declare, to the greater glory of God &amp; S. <hi>Francis Xauerius,</hi> that the cure of the right breaſt of the before named <hi>Mary Pulynck,</hi> which for ſo long a time as has been ſaid, was grieued with a true and putrifying cancker, &amp; ſuddenly and inſtantly became whole, is mira<g ref="char:EOLhyphen"/>culous
+<pb n="29" facs="tcp:50463:20"/> and aboue the power of nature. Exhor<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ing all Chriſtian belieuers, which ſhall come to know and vnderſtand this matter, eternally to praiſe and magnify the moſt High &amp; moſt mer<g ref="char:EOLhyphen"/>cifull God, &amp; to bleſs him before all the liuing, for that he has ſhewed mercy to his handmaid; and moreouer we acknowledge that we in theſe afflicted times of the Chriſtian commonwealth [in which we moſt of all need the interceſſions of the Saints] not without Gods particular pro<g ref="char:EOLhyphen"/>uidence do enjoy S. <hi>Francis Xauerius</hi> for ſo great a helper of the faithful, who may truly be called a Helper in miſeries, and neceſſities, and is to be worſhipped with all feruor, &amp; to be inuocated with moſt profound deuotion, and to be exal<g ref="char:EOLhyphen"/>ted with all praiſe and honor.</p>
+            <p>We alſo, who in this place, in which God has placed vs, though vnworthy, as Paſtor, haue a particular care of our flock of Bruges; do praiſe and thank his mercy to vs, that he has kept the fulfilling of ſuch a work for our firſt coming to this Biſhoprick; and we humbly beſeech him by the merits of S <hi>Francis Xauerius,</hi> that he would be pleaſed to defend with his Diuine protectio<g ref="char:cmbAbbrStroke">̄</g>, and filled with heauenly benedictions to keep ſound &amp; in perfect health, vs &amp; the ſheep com<g ref="char:EOLhyphen"/>mitted to our charge, who haue ſuch a Deuo<g ref="char:EOLhyphen"/>tion to ſo great a Patron.</p>
+            <closer>
+               <dateline>
+                  <hi>Giuen at Bruges</hi> in <hi>our Epiſcopal Pallace </hi>
+                  <date>
+                     <hi>vpon the ſeuenteenth of October</hi> 1662.</date>
+               </dateline>
+               <signed>was ſubſcribed <hi>ROB. DE HAYNIN</hi> Biſhop of Bruges.</signed> 
+               <hi>
+                  <g ref="char:V">Ʋ</g>nder, hung the Epiſcopal Seal in red wax.</hi>
+            </closer>
+         </div>
+         <div type="description_of_miracle">
+            <pb n="30" facs="tcp:50463:21"/>
+            <head>
+               <hi>The cure of a Pestilent Feuer, and the miraculous restoring of natural strength and forces, obtained by honoring a litle picture, which had touched the Relicks</hi> of S. Francis Xauerius <hi>at Me<g ref="char:EOLhyphen"/>chlin, approued for a miracle by the moſt Reuerend the Vicar General of the vacant Bishoprick of Bolduke.</hi>
+            </head>
+            <p>I <hi>
+                  <g ref="char:V">Ʋ</g>docus Houbraken Canon of the Ca<g ref="char:EOLhyphen"/>thedral</hi> 
+               <note place="margin">An Dom 1662.</note> 
+               <hi>Church of Anwerp, and Vi<g ref="char:EOLhyphen"/>car General of the vacant Dioceſs of Bolduke, To all that shall ſee theſe, Health in our Lord.</hi>
+            </p>
+            <p>Amongſt the vndoubted ſignes of the true Church are miracles, which are ſometimes wont to be wrought, as well for the conuerſion of Infidels to the faith, as alſo for the confirma<g ref="char:EOLhyphen"/>tion of the faithful in the ſame faith: for theſe miracles was ſingularly famous, both in his life, and after his death, S. <hi>Francis Xauerius</hi> of the Society of <hi>JES<g ref="char:V">Ʋ</g>S,</hi> the glorious Apoſtle of In<g ref="char:EOLhyphen"/>dia and Iapony, who, as we haue vnderſtood, has extended to our ſubjects his miraculous and benefical arm, [a litle peece whereof is ex<g ref="char:EOLhyphen"/>poſed to publick veneration at Mechlin in the Church of the Society of <hi>JES<g ref="char:V">Ʋ</g>S.]</hi> Which that it may more manifeſtly appear, by theſe our preſent letters we teſtify, that we haue parti<g ref="char:EOLhyphen"/>cularly examined, and cauſed to be examined the cure of a malignant feuer, and the ſudden reſtoring of ſtrength and forces, which by his means a certain yong woman in our Dioceſs
+<pb n="31" facs="tcp:50463:21"/> of Bolduke obtained in the manner following.</p>
+            <p>When in the year 1662. the plague was at Breda, N. N. a farmers wife of the territory of Bolduke aſſiſted her brother who was there ſick of it: ſhe being return'd home fell ſick of a contagious feuer, and infected her husband, two ſons, and her daugter <hi>Catharin</hi> being two and twenty years old. Firſt of all the mother, and afterwards the father being taken away by this peſtilential malady, and the two bro<g ref="char:EOLhyphen"/>thers alſo infeſted with the ſame, <hi>Catharin,</hi> from the ſix and twentith of Iuly to the three and twentith of Auguſt, was ſo exhauſted with the continual burnings of the ſame peſt, as that ſhe loſt at length not only her natural forces, but alſo her vnderſtanding, in ſuch ſort as there being no remedy for her in hu<g ref="char:EOLhyphen"/>man art, a skilful ſurgeon auouched that there was no hopes of her life, who amongſt diuers others, both with his hand and oath confirmed this our narration. Their friends &amp; neighbors vndoubtedly perſwaded themſelues that this houſe was infected with the plague; whereupo<g ref="char:cmbAbbrStroke">̄</g> there was none who would afford comfort &amp; neceſſary aſſiſtance to the ſick parties. Not<g ref="char:EOLhyphen"/>withſtanding their good <hi>Pastor,</hi> confiding through the merits and interceſſion of S. <hi>Fran<g ref="char:EOLhyphen"/>cis Xauerius</hi> both to be preſerued himſelf from infection, and alſo to free the ſick from theyr infirmity, did not deſert thoſe who were de<g ref="char:EOLhyphen"/>ſerted by all their friends. Hauing therefore late in the euening adminiſtred to <hi>Catharin</hi> the Holy Sacrament of Extreme Vnction, retur<g ref="char:EOLhyphen"/>ning again the ſame euening, he brought with
+<pb n="32" facs="tcp:50463:22"/> him a picture of S. <hi>Francis Xauerius,</hi> which had touched his Holy Relicks famous for mi<g ref="char:EOLhyphen"/>racles at <hi>Mechlin,</hi> and preſenting it to <hi>Catha<g ref="char:EOLhyphen"/>rin,</hi> who was in a manner juſt a dying, by the hands of her brother, he incited them all to put their confidence in the interceſſion of that Bleſſed Saint to God for them. <hi>Catharin</hi> had now layne four or fiue dayes, without being able to moue herſelf: the picture being offe<g ref="char:EOLhyphen"/>red her, ſhe took it and kiſt it with a great confidence, the Paſtor hauing exhorted her to contiue that her Deuotion all night, he retur<g ref="char:EOLhyphen"/>ned home. The next day early in the morning, without any bodies help or knowledge, <hi>Ca<g ref="char:EOLhyphen"/>tharin</hi> roſe out of her bed, and put on her clothes herſelf, and walked about the houſe: nay euen that very day, ſhe would haue gon out into the field to get forrage for the cat<g ref="char:EOLhyphen"/>tel, had not her brothers hindred her. The day after ſhe indeed went abroad, when in the mean time, the Paſtor being come to viſit her, expecting to finde her in her bed, either dead or dying, he ſees her come in at the door loa<g ref="char:EOLhyphen"/>ded with a great baſket of forrage, which ſhe had gathered in the field. The good man was wholly aſtoniſhed at this vnexſpected miracu<g ref="char:EOLhyphen"/>lous change, but withall reprehended her im<g ref="char:EOLhyphen"/>prudence, for ſo raſhly expoſing herſelf to the open air, and danger of a relapſe, being but immediately recouered of ſo dangerous a ma<g ref="char:EOLhyphen"/>lady. The maid hauing heard him with reſpect due to his perſon, confidently replied, <hi>Sir, be not ſolicitous for me, I am out of danger, the Saint has perfectly cured me, and restored me my</hi>
+               <pb n="33" facs="tcp:50463:22"/> 
+               <hi>ſtrength euer ſince yesterday morning.</hi>
+            </p>
+            <p>All theſe things hauing been declared to vs by a legal Inſtrument, to which, the Reuerend Paſtor, <hi>Catharin</hi> herſelf, and the ſurgeon, her two brothers, and others of her kindred and neighbors had ſubſcribed with oath, we firſt approued a Commiſſary in thoſe parts, an ho<g ref="char:EOLhyphen"/>neſt and vnderſtanding man, who after he had examined all things in our name, and had again, interpoſing the fidelity of an oath, receiued knowledge of the ſame things from <hi>Catharin,</hi> confirmed all with his own ſeal. Afterwards we our ſelues, here at Anwerp, examined the foreſaid <hi>Catharin,</hi> in the preſence of her Paſ<g ref="char:EOLhyphen"/>tor conſcious of all that had paſſed, and we found vnder the ſame Religion of an oath, that all had ſo happened. Which things being manifeſt, moreouer, there hauing been ſent vnto vs in writing, the judgements of moſt skilful Phyſitians, who had been conſulted about this matter, to wit of Tungers, and Bruſſels, &amp; eſpecially of two famous Profeſſors and Doctors of Phyſick, &amp; alſo of two others of the famous vniuerſity of <hi>Louain,</hi> who vna<g ref="char:EOLhyphen"/>nimouſly agreed, that this reſtauration of for<g ref="char:EOLhyphen"/>ces and ſtrength in ſo ſhort a ſpace of time could not be obtained by any power of nature; to the end that we might do nothing but le<g ref="char:EOLhyphen"/>gally, and according to the Decrees of the Councel of Trent, we haue conſulted learned men and skilful Diuines, and haue again in preſence and with them heard the foreſaid <hi>Ca<g ref="char:EOLhyphen"/>tharin,</hi> and finally all things hauing been ma<g ref="char:EOLhyphen"/>turely, and as in the preſence of God conſi<g ref="char:EOLhyphen"/>dered,
+<pb n="34" facs="tcp:50463:23"/> after a long and often repeated exami<g ref="char:EOLhyphen"/>nation, we thought it was fitting that we ſhould decree, and by theſe preſents we haue decreed, that the cure of the ſaid <hi>Catha<g ref="char:EOLhyphen"/>rin</hi> may be eſteemed and publiſhed as miracu<g ref="char:EOLhyphen"/>lous, and wrought by God, and obtained through the merits of S. <hi>Francis Xauerius,</hi> and we do publiſh it, and teſtify, that we eſteem it as ſuch: beſeeching God the Author of all things, that as he has been pleaſed to gather to his Church the nations of the Indies, by the preaching and miracles of S. <hi>Francis Xaue<g ref="char:EOLhyphen"/>rius</hi> while he liued, ſo he would now vouch<g ref="char:EOLhyphen"/>ſafe in theſe parts, by the miracles and inter<g ref="char:EOLhyphen"/>ceſſion of the ſame Saint, to conſerue &amp; con<g ref="char:EOLhyphen"/>firm his faithful people in the ſame Church, &amp; graciouſly to gather thoſe vnto her, who are by any error whatſoeuer ſeparated from her. In confirmation of all theſe things, I haue ſubſcribed theſe preſents with my own hand, &amp; ordered them to be ſigned with the ſeal of our vicarſhip, vpon the 19. of the Month of March, in the year of our Lord 1664.</p>
+            <closer>
+               <signed>JVDOC<g ref="char:V">Ʋ</g>S HOVBRAKEN.</signed> 
+               <g ref="char:cross">✚</g> 
+               <hi>The place of the Seal.</hi>
+            </closer>
+         </div>
+         <div type="description_of_miracle">
+            <pb n="35" facs="tcp:50463:23"/>
+            <head>
+               <hi>The Relation of a Miracle, wrought through the interceſſion of the glorious Apostle of the Indies, S.</hi> Francis Xauerius, <hi>at Palermo in Sicily, the ſecond of September</hi> 1662. <hi>appro<g ref="char:EOLhyphen"/>ued by the most Illustrious Arch<g ref="char:EOLhyphen"/>bishop of the ſame place.</hi>
+            </head>
+            <p>MAdam <hi>Mary Castelli</hi> had for her father Don <hi>Lancelot Castelli</hi> Marqueſs of Ca<g ref="char:EOLhyphen"/>pizzi, Prince of Caſtle Ferrato, at preſent one of the three maſters of the cham<g ref="char:EOLhyphen"/>ber of Counts who carry the ſword, &amp; Preſi<g ref="char:EOLhyphen"/>dent with a like number of the Robe at the adminiſtration of the Royal patrimony; and for her mother ſhe had the Lady <hi>Hippolyta Lareara</hi> of the houſe of the Counts of S. Char<g ref="char:EOLhyphen"/>les. This honorable Gentlewoman, after ſhe had attained to ſufficient age to delibera<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e of a ſtate of life, contemning all worldly hopes, well founded as well vpon the promiſing qua<g ref="char:EOLhyphen"/>lifications of her own perſon, as vpon her fa<g ref="char:EOLhyphen"/>mily, it being one of the moſt flouriſhing &amp; richeſt in all Palermo, conſecrated herſelf to God by a perfect Holocauſt, by taking the name of <hi>Hippolyta Lancelotta,</hi> and the habit of S. <hi>Baſil</hi> in an ancient Monaſtery, called <hi>Del Saluatore:</hi> where ſhe had a litle before, amongſt thoſe exemplar Religious, ſpent the firſt years of her tender age, in an education as well no<g ref="char:EOLhyphen"/>ble, as holy.</p>
+            <p>The king of Virgins did not delay, to teſ<g ref="char:EOLhyphen"/>tify, with what particular ſatisfaction he ac<g ref="char:EOLhyphen"/>cepted the generous oblation of this his new
+<pb n="36" facs="tcp:50463:24"/> Spouſe; and he did it by beſtowing vpon her one of thoſe fauors, with which he is wont ordinarily to grace thoſe whom he loues moſt tenderly; that is by a very ſtrange, and very troubleſom infirmity. Which began vpon the firſt of Iune, in the year one thouſand ſix hundred ſixty one, with a litle Catarr accom<g ref="char:EOLhyphen"/>panied with a cough: which as then was not very troubleſom vnto her, and alſo no great matter was made of it, but afterwards it did ſo extremely encreaſe, that hauing ſurmoun<g ref="char:EOLhyphen"/>ted the force of all human remedies, it redu<g ref="char:EOLhyphen"/>ced the patient to ſuch a condition, as ſhe had no hopes to recouer, whilſt that, before ſhe was brought if not to dy<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, at leaſt to deſire death, ſhe felt in her ſelf the effects of death, according to the proportion of the frequency of the ſymptoms of death which did aſſault her, and according to the meaſure of the ex<g ref="char:EOLhyphen"/>periments, which the Phyſitians made of theyr art vpon her perſon, endeauoring to cure her. Vpon the ſixth of Auguſt in the ſame year, this malignant humor diſcouered it ſelf to be of another nature, then before it was appre<g ref="char:EOLhyphen"/>hended to be: for it tormented ſiſter <hi>Hippo<g ref="char:EOLhyphen"/>lyta</hi> for ſome hours together without one mo<g ref="char:EOLhyphen"/>ments reſpit, with a moſt violent cough. From henceforward, as in caſe of open and proclai<g ref="char:EOLhyphen"/>med war, ſhe was forced euery day to ſuffer the ſame aſſault of the ſaid cough, which did cruelly ſhake her and ceaſed not to torment her for ſix hours together in the afternoon. Her pains were encreaſed by new accidents in the month of Ianuary. Her cough, after a ſhort
+<pb n="37" facs="tcp:50463:24"/> truce of a few daies, hauing recouered its for<g ref="char:EOLhyphen"/>ces, returned again with more violence; and ſometimes the ſhaking was ſo violent, the impetuoſity ſo great, &amp; the ſtraining to cough ſo frequent, that euery body wondered, how ſo delicate and feeble a yong maid was able to endure it, and not to dy of it. But that which gaue greateſt cauſe of fear, was the fal<g ref="char:EOLhyphen"/>ling of ſome drops of this peſtilential catarr into her throat, where ſtopping the paſſage, it brought her to the very point of expiring. Wherefore fearing leaſt ſome time or other ſhe ſhould be ſtifled herewith, and ſo dy ſuddenly, without further delay they gaue her the moſt ſacred <hi>
+                  <g ref="char:V">Ʋ</g>iaticum</hi> or laſt Communion, &amp; com<g ref="char:EOLhyphen"/>mended her ſoul to God. This ſlimy and bi<g ref="char:EOLhyphen"/>ting diſtillation at length came out; and juſt as a torrent, makes the moſt hideous noyſe when it breaks its bounds, ſo the Violence, which was neceſſary to caſt out of the throat, this dangerous dam or ſtopping, was accom<g ref="char:EOLhyphen"/>panied with ſo vehement a cough, as it reſem<g ref="char:EOLhyphen"/>bled the bellowing of an ox, and all the mo<g ref="char:EOLhyphen"/>naſtery rung of it. Nor muſt any one wonder at this, or hold it for leſs credible, for it is not yet ſix years, ſince that at Macerata, the noyſe, with which the air round about rung, by a cough of a yong Father of the Society of <hi>IES<g ref="char:V">Ʋ</g>S,</hi> was ſo ſtrong and lowd, as that it was heard half a mile off. The horrible noyſe of this cough and painful ſhaking of her whole body, was followed with moſt ſharp head-achs with a great defection of her ſtrength &amp; forces, with languiſhings, faintings and ſownings. She
+<pb n="38" facs="tcp:50463:25"/> remained without ſtrength, without ſpeech, without motion, and was for a good ſpace of time, ſomtimes for a quarter of an hour, with her mouth gaſtly open, without being able to ſpeak one ſyllable, or euen to moue her lips. Nor did the ſtrange effects of this obſtinat rheum ſtay here, but brought the patient, after an extreme weaknes, to an extreme contortio<g ref="char:cmbAbbrStroke">̄</g> or gathering vp of her body; ſo as ſhe was not able to ly along in her bed, but was for<g ref="char:EOLhyphen"/>ced to ſit vp in it. Then juſt as Watermen managing theyr oar, at euery ſtroke, moue all their limbs back wards and forward, ſo ſhe ſeized vpon by a cruel conuulſion, throwing herſelf with her arms and breaſt, now to the feet, and then again to the head of the bed, ſhe toſſed her ſelf vp and down with great pain and torment. Four of the ſtrongeſt of the Re<g ref="char:EOLhyphen"/>ligious, to the end that they might ſomwhat aſſwage her dolors, endeauored to hold her as ſtill as they could, but at length being not able any longer to endure the toyl, nor all four of them able to maſter the force of only one, &amp; ſhe ſick too, they ſet beſides her certain litle chairs, to the end that ſhe laying hold of thoſe, &amp; throwing the<g ref="char:cmbAbbrStroke">̄</g> about, might finde wherein to weary herſelf, and by that means abate the force of her ſtrange frenſy, which remaining in its vigor more grieuouſly tormented her. Palpi<g ref="char:EOLhyphen"/>tations and oppreſſions of heart, frequent ne<g ref="char:EOLhyphen"/>ceſſity of breathing now on this ſide, then on that, an extreme difficulty of drawing her bre<g ref="char:EOLhyphen"/>ath, conuulſions, ſownings, were the ſymptoms which followed one in the neck of the other,
+<pb n="39" facs="tcp:50463:25"/> with ſo violent an agitation of the ſick party, that many of the Religious, who were more tenderly affected towards her, forbore to viſit her, to the end they might not ſee her in this pitiful conditio<g ref="char:cmbAbbrStroke">̄</g>. In the fifteen months, in which the malady continued in this violence, many conſults of Doctors were made with great ex<g ref="char:EOLhyphen"/>pences. Beſides abundance of Medecins of Iu<g ref="char:EOLhyphen"/>lips &amp; Quinteſſences, they applied the burning heat of red hot irons twice, and cupping-glaſſes eight times or more, but all without doing her any good. Moreouer, if we will belieue Galen, there is no remedy on earth for this malady, which for its contumacious and inſuperable fiercenes is called <hi>Distillatio Ferina.</hi> But while ſiſter <hi>Hippolyta,</hi> her ſtrength &amp; forces exhauſted, giuen ouer by the Doctors, who deſpaired of ſauing her life, hauing loſt her ſpeech, at the end of a three dayes violent agony, wholly reſigned to the Diuine will, was expecting the laſt mercy of God, the recompence of her pa<g ref="char:EOLhyphen"/>tience with the end of all her dolors; behold, beyond all human hopes, ſhe is rewarded with the gift of her loſt health, to the end that ſhe might multiply the crowns of her vertues by her faithful ſeruices of her bountiful ſpouſe. She remembred herſelf, how that Father <hi>Tho<g ref="char:EOLhyphen"/>mas Buſcemy</hi> of the Society of <hi>JES<g ref="char:V">Ʋ</g>S,</hi> hauing entred into the Monaſtery ſome few daies be<g ref="char:EOLhyphen"/>fore to hear her Confeſſion, had recounted vnto her a miracle, wrought in the City of Macerata vpon a Father of the ſame Society who being aflicted with the ſame malady, with very ſem<g ref="char:EOLhyphen"/>blable ſymptoms of oppreſſion of the heart, a
+<pb n="40" facs="tcp:50463:26"/> violent cough, &amp; thoſe other rude paroxiſms, which I haue aboue related, by taking for his Aduocate the Holy Apoſtle of the Eaſt, was by the Saint immediately and perfectly cured: ſhe remembred alſo that the ſaid Father, bringing to her a Relick, had exhorted her to make vſe of a like recours to the Saint, for the recouery of her health: moreouer that the Father being returned to the College, had receiued a letter, by which ſiſter <hi>Hippolyta</hi> demanded of him permiſſion to pray to God &amp; S. <hi>Francis Xauerius,</hi> not to prolong her life, but to haſten at leaſt her death; but he perſiſting in his firſt Counſel, had anſwered her, that ſhe ſhould for the pre<g ref="char:EOLhyphen"/>ſent quit that her deſire of happines, and with a due indifferency pray to God to reſtore her health, if it were to his greater glory, to the end that ſhe might employ it to the ſeruice of his Diuine Majeſty, and of her Religion, and that ſhe ſhould repeat this praier three times. She then being now gaſping for life, remem<g ref="char:EOLhyphen"/>bred that ſhe had not been ſo punctually obe<g ref="char:EOLhyphen"/>dient to her ſpiritual Father, for which ſhe was a litle troubled, and had ſome ſcruple of it, &amp; ſo whether in recompence of her obedience, or as a diſpoſition to the merit of that grace which was prepared for her, ſhe felt her heart encouraged &amp; ſtrengthned by a great faith, ſuch as ſhe had not experimented ether in her firſt, or ſecond praier: by means wherof, without delay, ſhe repeats her praier in thought [being not able to do it by words] &amp; beſeeches God the third time in the form preſcribed by her Confeſſarius, that through the interceſſion of
+<pb n="41" facs="tcp:50463:26"/> his faithful ſeruant, and Apoſtle of the Eaſt S. <hi>Francis Xauerius,</hi> he would deliuer her from this mortal infirmity. No ſooner had ſhe don this, but the torment of her agony being chan<g ref="char:EOLhyphen"/>ged into a ſweet repoſe, ſhe fell into a quiet ſleep: In her ſleep ſhe ſeemed to herſelf to hear an interior voice, which ſaid vnto her, that ſhe was now perfectly cured: and for that ſurpri<g ref="char:EOLhyphen"/>zed, between aſtoniſhment and joy, ſhe did not yet belieue it, and demanded how this was don ſo ſuddenly, &amp; why ſhe ſhould receiue ſo great a reward for ſo ſmall an act of obe<g ref="char:EOLhyphen"/>dience? Not ſo, replied to her clearly the ſame voice, but S. <hi>Francis Xauerius,</hi> whom you haue taken for your aduocate, has interpoſed his praiers for you to God; wherefore take his Relick, and lay it vpon your heart, for it is this Saint who has obtaind you this gra<g ref="char:EOLhyphen"/>ce. And ſhe had no need of any thing els quite to free her of her malady, but immediatly ſei<g ref="char:EOLhyphen"/>zed on by a ſublime rauiſhment of ſpirit, what return, ſaid ſhe, ſhall I be able to make to my deliuerer, that I may acquit my ſelf worthily of ſo conſiderable a fauor? Nothing els [re<g ref="char:EOLhyphen"/>plied again the diuine inſpiration, whick ſpoke to her in her heart without the noyſe of words] but that firſt you communicate euery Friday in honor of S. <hi>Francis,</hi> offering to the ſoue<g ref="char:EOLhyphen"/>raigne Lord the moſt adorable Euchariſt, the abridgment of all graces. Secondly that you baniſh from you that day all other thoughts, &amp; ſpend it in a Deuout recollection, keeping ſilence exactly. Thirdly that by particular acts you employ your ſelf in the exerciſe of ſome
+<pb n="42" facs="tcp:50463:27"/> vertue and aduance your ſelf in the acquiring of it. At this very moment ſhe raiſes her ſelf vp, and hauing with a great Deuotion applied to her breaſt the Holy Relick, the true remedy of her incurable diſtillation and all other in<g ref="char:EOLhyphen"/>firmity, ſhe cryed out with a lowd and clear voice: I am well, S. <hi>Francis Xauerius</hi> has cured me, giue me my Habit, for I will go imme<g ref="char:EOLhyphen"/>diately to the Quire, to giue thanks to God and the Saint for my recouery. The mothers, who in a great number kept her company in this extremity, looked vpon theſe words, as the rauings of one that was out of herſelf; but preſently after acknowledging them to be what they were indeed, an vndoubted teſti<g ref="char:EOLhyphen"/>mony of the very truth, they were greatly aſtoniſhed at them, which amazeme<g ref="char:cmbAbbrStroke">̄</g>t ſoon chan<g ref="char:EOLhyphen"/>ged it ſelf into a hearty joy, and praiſes of the Diuine bounty and the Holy Apoſtle: &amp; with<g ref="char:EOLhyphen"/>out exſpecting any further, they went all in a modeſt &amp; Deuout Order to the Quire with the ſick perſon, who was then perfectly recouered: and ſung the <hi>Te Deum laudamus</hi> in a ſweet and harmonious conſort with the applauſe &amp; vnſ<g ref="char:EOLhyphen"/>peakable joy of the whole Monaſtery. Af<g ref="char:EOLhyphen"/>ter which, they immediately gaue notice of all that had paſſed to my Lord the Archbiſhop: by whoſe ordination, neceſſary informations hauing been taken, and a proceſs juridically formed, this preſent relation in an authentical form was drawn out of it. From the day on which the ſick perſon was miraculouſly cured, vnto this preſent that we write this narration, are paſſed ten months: during which time ſhe
+<pb n="43" facs="tcp:50463:27"/> has conſtantly enjoyed the grace of as per<g ref="char:EOLhyphen"/>fect health as at the firſt moment in which ſhe receiued it, except that when through forget<g ref="char:EOLhyphen"/>fulnes, or ſome vnexſpected accident, ſhe has ſometimes failed exactly to fulfill the dutyes ordained her by the Saint: for then ſhe found her ſelf to be ſeized on by certain ſymptoms of the ſame euil, but which were ſent her only as an aduertiſment, in ſuch ſort, that acknow<g ref="char:EOLhyphen"/>ledging her defect, and not deferring to cor<g ref="char:EOLhyphen"/>rect it, the grudgings of her diſtemper ſtrait vaniſhed, and ſhe was as free from them as be<g ref="char:EOLhyphen"/>fore. Amongſt others, for that hauing vpon one day of the Octaue of the Holy Apoſtle, lighted certain candels to honor his memory, ſhe reſolued afterwards, out of I know not what human reſpects, to put them out again, ſhe was immediately aſſailed with thoſe furi<g ref="char:EOLhyphen"/>ous conuulſions, which we haue aboue recoun<g ref="char:EOLhyphen"/>ted, together with loſs of her ſpeech, and was nether able to recouer the vſe of her tongue, nor to free herſelf from thoſe contorſions, vntil ſhe had again lighted the candels. In like manner another time, her voice failing her in the Quire, in ſuch ſort that ſhe could not ſing one ſyllable of the diuine office; &amp; all remedies which were vſed to make her voice return, ſer<g ref="char:EOLhyphen"/>uing to no purpoſe, ſhe remembred that ſhe had not payed to her liberal benefactor, the ſmall tribute of a lamp, which was to burn before his picture. Wherefore ſhe ran to it immediately: and at that very inſtant, ſhe was freed from the ſtopping of a watry humor, which was falne down into her throat. I could
+<pb n="44" facs="tcp:50463:28"/> here recount a multitude of ſuch like amiable paſſages betwixt the Saint &amp; his dear Deuote, but content your ſelues with theſe, which were alledged and authentically proued in the aboue-mentioned proceſs.</p>
+            <p>There is only one thing, which although it diſcouer it ſelf, notwithſtanding, methinks I may not omit particularly to aduertiſe thoſe of it, who ſhall read or hear this Relation: and 'tis for the ſpiritual comfort of the De<g ref="char:EOLhyphen"/>uotes of the Holy Apoſtle, who by the obli<g ref="char:EOLhyphen"/>gation he impoſed in recognizance of a fauor don by him, does vndoubtedly aſſure vs all, how greatly he is delighted in the exerciſes of that chriſtian Piety, which the Deuotion of the faithful has begun, to honor Friday in a ſpecial manner, the day on which this Saint, departing out of this life in the Iſle of Sanciano neer China, in an vnſpeakable deſtitution of all human comfort, and conſequently very like to that of our Lord, receiued from his Diuine Majeſty an abundant recompenſe of his infinite and Apoſtolical labors, which he had vndergon for ten years in the Eaſt, to the great aduantage of ſouls, and glory of the faith.</p>
+            <p>Let vs pray vnto him then, that from aboue he would pleaſe to kindle in vs alſo a deſire of meriting by good works, the effect of his protection and patronage in this happy ſpouſe of IESVS CHRIST.</p>
+         </div>
+         <div type="description_of_miracle">
+            <pb facs="tcp:50463:28"/>
+            <head>
+               <hi>A ſudden cure of a Rupture of nine years, wrought vpon an old man of threeſcore and fifteen years of age, vpon a vow made by another perſon to S.</hi> Francis Xauerius: <hi>approued for a Miracle by my Lord the most Illuſ<g ref="char:EOLhyphen"/>trious and most Reuerend Arch<g ref="char:EOLhyphen"/>bishop of Mechlin.</hi>
+            </head>
+            <p>
+               <hi>ANDREW by the grace of God and</hi> 
+               <note place="margin">An. Dom. 1662.</note> 
+               <hi>of the Sea Apostolick Archbishop of Mechlin, to all thoſe who shall ſee theſe preſents, health in our Lord.</hi>
+            </p>
+            <p>As amongſt diuers places which giue ſingu<g ref="char:EOLhyphen"/>lar marks of their zeal towards the miracu<g ref="char:EOLhyphen"/>lous Relicks of S. <hi>Francis Xauerius,</hi> the City of <hi>Mechlin</hi> Metropolis of our Dioceſs in the low-countreys, does ſignally continue her De<g ref="char:EOLhyphen"/>uotion with an extraordinary feruor, where that ſacred Depoſitum was firſt of all expoſed with our approbation to the veneration of the people in the Church of the Society of <hi>JE<g ref="char:EOLhyphen"/>S<g ref="char:V">Ʋ</g>S,</hi> ſo alſo the Diuine hand there opens it ſelf largely, daily to diſtribute more conſidera<g ref="char:EOLhyphen"/>ble fauors by the miraculous and benefical arm of his faithful ſeruant. For beſides the fauors and miracles which we haue leaſurly examined and duely approued hitherto, as alſo other Prelates of the Church haue don, we vnderſtand that this great Apoſtle of the In<g ref="char:EOLhyphen"/>dies, has lately made again appear the indeed prodigious power of his arm. To confirm this verity, we do declare by theſe preſents, that
+<pb n="46" facs="tcp:50463:29"/> we haue commanded with all poſſible exactnes to ſearch out the truth of a ſudden cure of a rupture of nine years, which a certain inha<g ref="char:EOLhyphen"/>bitant of <hi>Mechlin</hi> has obtained by the inter<g ref="char:EOLhyphen"/>ceſſion of this glorious Saint, and which to this day he ſtill perfectly enjoyes, as will ap<g ref="char:EOLhyphen"/>pear by this authentical narration, which was ſent to vs.</p>
+            <p>
+               <q>
+                  <hi>William Plougart</hi> being threeſcore and fif<g ref="char:EOLhyphen"/>teen years old, was grieuouſly tormented with the extreme pains of a Rupture, the ſwelling whereof fell down ſometimes in ſuch ſort, as it was as bigg as the head of a child. <hi>Margaret de Hoogh</hi> his wife was eye<g ref="char:EOLhyphen"/>witnes of it, and alſo <hi>Lewis van Dael</hi> felt it with his hand a few daies before he was cu<g ref="char:EOLhyphen"/>red, when he found him lying vpon the ram<g ref="char:EOLhyphen"/>pairs without force and ſtrength, not being able to moue himſelf for the vehemency of his pains, which he has often confirmed by oath, and auouched that diuers times, for theſe fiue laſt years that he wrought with him, he obſerued he was ſo weak and fee<g ref="char:EOLhyphen"/>ble, that he was forced to leaue off his dayly labor. The violence of this infirmity had from the beginning ſo oppreſſed the poor old man, that his ſufferings growing euery day to be more violent then other, they made him wholly vnfit for labor. The fal<g ref="char:EOLhyphen"/>ling of his malady did ſo torment him in the night-time vpon the eleuenth of Decem<g ref="char:EOLhyphen"/>ber 1662. that he verily perſwaded himſelf he ſhould dy of it, proteſting amidſt the violence of his pains, that he ſhould eſteem
+<pb n="47" facs="tcp:50463:29"/> himſelf extremely happy, might he but dy, and that by a death neuer ſo violent. A<g ref="char:EOLhyphen"/>mongſt others of his neighbors who were awaked by the doleful noyſe of his ſad gro<g ref="char:EOLhyphen"/>ans, a certain yong woman moued with compaſſion towards him, at one a clock in the night, made a vow in his behalf to S. <hi>Francis Xauerius,</hi> and promiſed to perform it at his miraculous Relicks at <hi>Mechlin:</hi> no ſooner had ſhe made her vow, but the com<g ref="char:EOLhyphen"/>plaints and ſighes of the infirm perſon cea<g ref="char:EOLhyphen"/>ſed. Early in the morning ſhe went to ſee him, and demanding how he did, his daugh<g ref="char:EOLhyphen"/>ter <hi>Magdalen</hi> made her anſwer, that he had ſlept queitly euer ſince one a clock in the night. <hi>
+                     <g ref="char:V">Ʋ</g>ertly,</hi> then replied the good maid, <hi>I made a vow at the ſame time to the great A<g ref="char:EOLhyphen"/>postle of the Indies, S. Francis Xauerius, for the caſe of your father, and I will forthwith accom<g ref="char:EOLhyphen"/>plish it, with as much fidelity as ſpeed.</hi> Vpon the making &amp; performance of this promiſe, the ſaid <hi>William</hi> was perfectly Cured, and has not ſuffered any inconuenience from his infirmity, for the ſpace of two years now paſt. He has walked vp and down, trauel<g ref="char:EOLhyphen"/>led, and don his ordinary labor, with as great caſe and alacrity, as if he had neuer known what meant the torments of a trou<g ref="char:EOLhyphen"/>bleſom rupture; and which is more to be wondred at in an old man of his age, ſix months after his cure, vpon the firſt day of May, he went from <hi>Mechlin</hi> to <hi>Anwerp,</hi> 
+                  <note n="a" place="margin">Tvvelue miles.</note> and returned again the ſame day on foot, &amp;
+<pb n="48" facs="tcp:50463:30"/> this loaded with a heauy pack. A while after in the moſt vehement heats of the ſummer, he went from <hi>Mechlin</hi> to <hi>Bruxels,</hi> 
+                  <note n="b" place="margin">Tvvelue miles.</note> &amp; came back again the ſame day ſtrong and luſty. Moreouer he proteſts that ſince his recouery of his health, for theſe two years, he has performed without any pain his accuſto<g ref="char:EOLhyphen"/>med functions, although hard &amp; laborious, [for that he is a gardener by occupation] that he has digged, ſowed, and oftentimes in the cold and moſt dangerous moiſt ſea<g ref="char:EOLhyphen"/>ſons, bowed <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o the ground, plucked vp herbs by the roots in his garden; and in fine, that he has don other labors, which experience teſtifies to be wholly contrary &amp; pernicious to ruptures; that he has planted and tranſ<g ref="char:EOLhyphen"/>planted trees; and that in the ſummer laſt paſt, being vpon a tree of a moderate height he fell down off it to the ground, without any hurt, or reſentment of his malady, al<g ref="char:EOLhyphen"/>though that heretofore, during the nine years he was tormented with it, it fretted and ſwelled with cutting pains, according as the air grew cold or moiſt, or if that in laboring he vſed any violence.</q>
+            </p>
+            <p>The News of this cure hauing been brought vs by many perſons of credit, The Reuerend <hi>Iohn Baptista Bernaerts</hi> curate and canon of our Metropolitan Church, and <hi>Antony Vermeulen</hi> Licentiat in Diuinity, authorized to this pur<g ref="char:EOLhyphen"/>poſe, took by our command the informati<g ref="char:EOLhyphen"/>ons with theyr vſual forms, which the ſaid <hi>William,</hi> his wife, his daugher, and <hi>Lewis van</hi>
+               <pb n="49" facs="tcp:50463:30"/> 
+               <hi>Dael</hi> ſubſcribed with oath, as alſo the worſhip<g ref="char:EOLhyphen"/>ful commiſſaries, who ſent them vs ſigned with their own ſeal. In confirmation whereof, many other teſtimonies were added of the moſt fa<g ref="char:EOLhyphen"/>mous Phyſitians of <hi>Mechlin. Anwerp,</hi> and <hi>Bru<g ref="char:EOLhyphen"/>xels,</hi> and of the two prime profeſſors and Doc<g ref="char:EOLhyphen"/>tors of Phyſick in the famous vniuerſity of <hi>Louain,</hi> who vnanimouſly aſſure vs, that ſo ſudden and perfect a cure of a rupture of nine years, wrought vpon a man of threeſcore and fifteen years old, was aboue the power of na<g ref="char:EOLhyphen"/>ture, which we hauing vnderſt<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d, and conſide<g ref="char:EOLhyphen"/>red in the preſence of God, as alſo hauing required the judgements herein of diuers Di<g ref="char:EOLhyphen"/>uines, and other perſonages of great ability and Integrity, according to the Decree made by the Council of Trent concerning the ap<g ref="char:EOLhyphen"/>probation of New miracles, conforming our ſelues to the faithful report of the Reuerend Commiſſaries, who haue moſt diligently and maturely examined, and conſidered the matter, we judged it fitting, as we do alſo by theſe preſents judge it fitting, that this cure of <hi>Wil<g ref="char:EOLhyphen"/>liam Plougart,</hi> both may and ought to be held and publiſhed for ſupernatural and miraculous, wrought and obtained of the Diuine goodnes, by the interceſſion of S. <hi>Francis Xauerius,</hi> and for ſuch we publiſh and decree it. In credit whereof we haue commanded our Secretary to diſpatch theſe preſents, ſigned with our hand and ſealed with our ſeal, humbly beſeeching the good God, who glorifies thoſe which glo<g ref="char:EOLhyphen"/>rify him, and is honored in the honors of his Saints [as we acknowledge, from our own
+<pb n="50" facs="tcp:50463:31"/> experience and with all kind of ſubmiſſion the glorious merits and ſignal fauors of the bleſſed S. <hi>Francis Xauerius]</hi> that we may here<g ref="char:EOLhyphen"/>after more frequently experiment the effects of his fauorable protection.</p>
+            <closer>
+               <dateline>Giuen at Bruxels <date>the 28. of Nouember 1664.</date>
+               </dateline>
+               <signed>It was ſigned <hi>ANDREW</hi> Archbiſhop of Mechlin.</signed> 
+               <hi>And a litle lower By order of my Lord the most Illuſtrious and most Reuerend Archbishop.</hi>
+               <signed>F. Deſpaute Secretary.</signed> 
+               <hi>The place of the Seal</hi> 
+               <g ref="char:cross">✚</g>
+            </closer>
+         </div>
+         <div type="description_of_miracle">
+            <head>
+               <hi>A Miraculous cure of Lamenes obtained vpon the Seuenth of April</hi> 1662. <hi>through the interceſ<g ref="char:EOLhyphen"/>ſion of S.</hi> Francis Xauerius; <hi>approued by the most Illustrious</hi> Ambroſius Capello <hi>Bishop of Anwerp, the</hi> 23. <hi>of Nouember</hi> 1663.</head>
+            <p>FR: Ambroſius Capello <hi>by the Grace of God, and of the Holy Apostolick ſeat of Rome, Bishop of Anwerp, to all the faithful Christians of this Bishoprick, Health in our Lord.</hi>
+            </p>
+            <p>The conſtant Deuotion of the people of Anwerp to S. <hi>Francis Xauerius,</hi> in his Holy Re<g ref="char:EOLhyphen"/>licks, kept in the Church of the Profeſſed Houſe there of the Society of <hi>JES<g ref="char:V">Ʋ</g>S,</hi> excites the merciful God, who is alwaies wonderful
+<pb n="51" facs="tcp:50463:31"/> in his Saints, now and then, by certain ſuper<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>atural fauors to ſignify, how pleaſing vnto him the honor is, which we, here vpon earth, ſhew to his friends in heauen; letting as it were deſcend certain rayes of that glory, which they there eternally poſſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſs, to the increaſing of that honor and temporal glory, which he does alſo euen here vpon earth to thoſe his ſame friends: and ſo it has appeared to vs now the third time, in the Perſon of <hi>Margarit Crick</hi> a deuout woman, of about eight and thirty years of age, born at Aeloſt of <hi>Peter Crick</hi> a merchant there in his life time, and <hi>Suſan <g ref="char:V">Ʋ</g>ander Straten.</hi> This woman in the year of our Lord 1656. hauing falne into a grieuous ſick<g ref="char:EOLhyphen"/>nes, and palſy in the right ſide of her body, although ſhe in ſome meaſure recouered of it, yet notwithſtanding ſhe retained, in all her right ſide, ſuch a weaknes, that ſhe was euer after miſerable, and wholly vnfit for any work which required any force and ſtrength, and ſhe got moreouer ſuch a ſudden contraction of the nerues or ſinews, that her right legg became remarkably ſhorter then her left: in ſuch ſort that ſhe was forced, to make one of her ſhooes, at leaſt about half a thumb higher then the other, and beſides, was neceſſitated, by reaſon of her great weaknes, to make vſe of a Crutch to go with all.</p>
+            <p>This lamenes in the maner related, together with a general weaknes of the right ſide of her body, ſtuck by her the ſpace of ſix years. During the firſt two years, to wit from the year 1656. to the year 1658. ſhe applied diuers
+<pb n="52" facs="tcp:50463:32"/> oyntments to her lame legg, but finding not the leaſt benefit or betternes by them, for the future ſhe layd <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hem all aſide, and paſt ouer the four next-following years [the three laſt wherof ſhe liued at Anwerp] without vſing any human remedies, medecins, or oyntings; bearing with patience this litle croſs, which God had ſent her. Vntil at laſt vpon the thir<g ref="char:EOLhyphen"/>tith day of March 1662. ſhe made her addreſs to <hi>S. Francis Xauerius,</hi> with a ſtrong confidence of obtaining of God, through his merits &amp; interceſſion, her perfect health, and ſtrength. To which end ſhe reſolued with herſelf, the nine daies following, to go to viſit his Re<g ref="char:EOLhyphen"/>licks, in the Church of the Profeſſed Houſe of the Society of <hi>IES<g ref="char:V">Ʋ</g>S,</hi> there to do her De<g ref="char:EOLhyphen"/>uotions, &amp; earneſtly to beſeech the ſame Saint, if it were the will of God, and would tend to her ſouls health, that he would vouchſafe to be her Aduocate, and obtain for her, perfect health of the Diuine mercy. And it ſeems the Saint ſtood ready to anſwer her requeſt, for immediatly from the very beginning, &amp; dayly forwards, during her nine-days Deuotion ſhe felt herſelf remarkably better as to her infir<g ref="char:EOLhyphen"/>mity, together with a like encreaſe of her confidence in the merits of the Saint; ſo that vpon the ſeuenth day of April, being Good-Friday for the year laſt paſt 1662. &amp; the laſt day of the Nouena, hauing ended her Deuo<g ref="char:EOLhyphen"/>tions before the Altar and Relicks of the fore<g ref="char:EOLhyphen"/>ſaid Saint<g ref="char:punc">▪</g> finding her ſelf comforted with an interior, ſenſible ſweetnes, and ſtrongly con<g ref="char:EOLhyphen"/>fiding that ſhe was cured through the interceſ<g ref="char:EOLhyphen"/>ſion
+<pb facs="tcp:50463:32"/> of <hi>S. Xauerius,</hi> and ſhould hereafter be able to go without a crutch, ſhe offered vp her crutch, and there left it: then riſing vp from her praying place, ſhe went ſtrait out of the Church without any difficulty: being come in to the ſtreet, finding herſelf ſtronger and ſtronger, ſhe went to the Church of S. Iames, and thence to the Church of S. George, and ſo to her own dwelling, which was there abouts; with an vnſpeakable joy, and a heart full of thankſgiuing to her curer and reſtorer S. <hi>Francis Xauerius,</hi> and was beheld with like admiration, firſt by her own hous-hold and neighbors, who ſaw her come home, and af<g ref="char:EOLhyphen"/>terwards by innumerable multitudes of people, who had before ſeen &amp; known the ſaid <hi>Mar<g ref="char:EOLhyphen"/>garit Crick,</hi> lame and miſerable, going with a crutch, and high ſhoos, and all notwitſtanding yet falling on one-ſide in her gate, whom they now ſaw without crutch or prop, to go nim<g ref="char:EOLhyphen"/>bly, and right vpon her limbs, without being able to perceiue any defect in her gate. And this ſtrength and ſoundnes of her body, did ſo encreaſe, that ſhortly after [to wit in the ſommer of the ſame year 1662. and again in the ſommer of the preſent year 1663.] ſhe went on foot from <hi>Baestroo</hi> to <hi>Aelost,</hi> of about nine miles diſtance, without any help of ſtick, or crutch, or any thing els: yea without euen feeling any greater wearynes in one legg, then in the other, to the great admiration of her friends and kinsfolks, and others of the town of <hi>Aelost,</hi> who had before known, or ſeen her lame, and miſerable. In this perfect health &amp;
+<pb n="54" facs="tcp:50463:33"/> ſtrength of limbs, does ſhe continue to this very day, for the ſpace of ſeuenteen Months, alwaies going vpright, without the leaſt lim<g ref="char:EOLhyphen"/>ping on one ſide or the other, without feeling any pain or contraction of Nerues, or any other incommodity.</p>
+            <p>All which being ſo repreſented vnto vs, as it has been related, we haue thought good to examin the ſame more narrowly, according to the duty of our Epiſcopal function, &amp; the zeal we haue to promote the honor of God, and of his Saints.</p>
+            <p>Firſt then, hauing gotten full information, of the ſicknes and condition, in the which <hi>Margaret Crick</hi> was, before ſhe came to <hi>An<g ref="char:EOLhyphen"/>werp;</hi> [the ſame information being taken at <hi>Aelost,</hi> vpon the Tenth of October 1663. by Right Reuerend Mr. <hi>Iohn Fernand. Garrido</hi> Dean of the Collegial Church there, and the Reue<g ref="char:EOLhyphen"/>rend Mr. <hi>Marius</hi> Canon of the ſame Church, therevnto eſpecially commiſſioned in the name of the moſt illuſtrious the Archbiſhop of <hi>Me<g ref="char:EOLhyphen"/>chlin.]</hi> we haue alſo in like manner to the more ſtrict examen of the ſicknes, and what has hap<g ref="char:EOLhyphen"/>pened to the foreſaid <hi>Margaret Crick</hi> for the time ſhe has liued here at Anwerp, and alſo to whatſoeuer might be required in this matter &amp; its circumſtances, commiſſioned the very Re<g ref="char:EOLhyphen"/>uerend Mr <hi>Henricus van Halmale</hi> Licentiate in both Laws, &amp; Dean of our Cathedral Church of our Bleſſed Lady; and beſides him, the Re<g ref="char:EOLhyphen"/>uerend Canons Mr. <hi>Antonius van Berchem</hi> Li<g ref="char:EOLhyphen"/>centiate in both Laws, Protonotary Apoſto<g ref="char:EOLhyphen"/>lick, and Archpreiſt; and Mr. <hi>Aubertus van</hi>
+               <pb n="55" facs="tcp:50463:33"/> 
+               <hi>den Eede,</hi> Licentiate in both Laws, Protono<g ref="char:EOLhyphen"/>tary Apoſtolick and Canon Graduate of the ſame our Cathedral Church, who vnder ſo<g ref="char:EOLhyphen"/>lemn oath made in their hands, heard the re<g ref="char:EOLhyphen"/>lation as well from the foreſaid <hi>Margaret Crick,</hi> as alſo from diuers other perſons, who knew the foreſaid <hi>Margaret,</hi> from thoſe with whom ſhe had dwelt &amp; from ſome who ſaw her come home vpon the day of her cure: afterwards, they asked the judgement of three famous Doctors of Phyſick of this City, who hauing well and maturely conſidered all the foreſaid points and informations, in like manner vnder ſolemn oath they vnanimouſly judged, and at<g ref="char:EOLhyphen"/>teſted, that the aboue mentioned ſudden cure of the foreſaid <hi>Margaret,</hi> was aboue all natu<g ref="char:EOLhyphen"/>ral power and means: and muſt neceſſarily be attributed to God alone, and to S. <hi>Francis Xauerius,</hi> whom God would hereby honor.</p>
+            <p>Wherefore report hauing been made to vs, of all that has been ſaid, by the aboue mentio<g ref="char:EOLhyphen"/>ned Commiſſioners, and we hauing been per<g ref="char:EOLhyphen"/>fectly informed of all the particulars, and ha<g ref="char:EOLhyphen"/>uing alſo heard the opinion of our Doctors in Diuinity, do declare the aboue related ſud<g ref="char:EOLhyphen"/>den cure of the foreſaid <hi>Margaret Crick,</hi> to be miraculous, and ſupernatural, and that it ought to be held by euery one for a true miracle: exciting all vnanimouſly to praiſe and thank God, who has giuen vs within the town of Anwerp, as well for our corporal, as for our ſpiritual neceſſities, ſo powerful an Aduocate, and who is pleaſed amongſt vs, by remarka<g ref="char:EOLhyphen"/>ble ſignes to exalt his great inſtrument and A<g ref="char:EOLhyphen"/>poſtle
+<pb n="56" facs="tcp:50463:34"/> S. <hi>Francis Xauerius,</hi> who carried and pro<g ref="char:EOLhyphen"/>pagated Gods true faith, honor, and glory to the vtmoſt bounds of India and Iapony.</p>
+            <p>In teſtimony of the truth whereof we haue ſigned theſe preſents, and confirmed them with our own Seal, at Anwerp in our Epiſcopal pal<g ref="char:EOLhyphen"/>lace the 23. of Nouemb. in the year 1663.</p>
+            <closer>
+               <signed>Was ſubſcribed <hi>F. AMBROS. CAPELLO</hi> Biſhop of Anwerp.</signed> At the ſide was put the Epiſcopal Seal. Vnderneath was written. <hi>By order of the most Il<g ref="char:EOLhyphen"/>lustrious before-named.</hi> And yet lower.
+<signed>D. vanden Br<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l Secretarius.</signed>
+            </closer>
+         </div>
+         <div type="description_of_miracle">
+            <head>
+               <hi>A woman in Trauel happily deliuered, and freed from witchraft by the Interceſſion of S.</hi> Francis Xauerius, <hi>in the year of our Lord</hi> 1662. <hi>in the month of April.</hi>
+            </head>
+            <p>
+               <hi>CAtharin van Hoef</hi> wife to <hi>Peter vander Elst</hi> Burger of <hi>Lire,</hi> was no ſooner deliuered of fiue of her children, but ſhe ſaw them born, and dead at the ſame moment, and they vnhappy infants found their cradles in their graues, before they had been waſhed from ori<g ref="char:EOLhyphen"/>ginal
+<pb facs="tcp:50463:34"/> ſin by the ſacred waters of Baptiſm. This ſad accident aflicted their ſorrowful mother the more greiuouſly, for that ſhe perceiued by diuers ſignes and tokens, that they were ſtifled by magicall charms and enchantments.</p>
+            <p>Witches and enchanters, in their diaboli<g ref="char:EOLhyphen"/>cal arts, by the permiſſion of Almighty God, make vſe of the fruits of the earth, and of the dung of rats, &amp; other filthy creatures, to work maligne effects vpon the bodies of men. with ſuch kind of ſorceries as theſe, this poor wo<g ref="char:EOLhyphen"/>man was outragiouſly aflicted, finding her bed oftentimes full of them, although ſhe had cauſed it to be cleanſed before. Wherefore finding herſelf thus grieuouſly aſſailed by wicked ſpirits and their adherents, ſhe cauſed herſelf to be exorcized for four whole years, when excited by the noiſe of the miracles whrought through the interceſſion of S <hi>Xa<g ref="char:EOLhyphen"/>uerius</hi> at <hi>Mechlin,</hi> ſhe went thither. And en<g ref="char:EOLhyphen"/>tring into the chappel where the Relicks of the Saint are kept, immediately the Saint filled her ſoul with ſuch a ſweetnes and comfort in her aflictions, as cheered her at the very he<g ref="char:EOLhyphen"/>art, and ſhe was not a litle ſtrengthened by it. The poor woman being again with child, the four laſt months of her time ſhe was aflicted with ſuch a troubleſome flux of Blood, ac<g ref="char:EOLhyphen"/>companied with ſuch a dereliction of forces, with ſuch languiſhings and faintings, and ſo many euils at once, that fearing leaſt oppreſſed by them ſhe ſhould by ſuddenly, they gaue her the moſt Holy <hi>Viaticum</hi> or laſt Sacrament of our Lords Body.</p>
+            <pb n="58" facs="tcp:50463:35"/>
+            <p> Theſe ſad effects made the mid-wife and her kindred judge that there was no hopes of her life: notwithſtanding the ſick party, although her ſtrength and forces were exhauſted, and ſhe giuen ouer by all, yet did ſhe not ceaſe to ex<g ref="char:EOLhyphen"/>pect from the abundant charity of S. <hi>Xauerius,</hi> together with the end of her dolors, the re<g ref="char:EOLhyphen"/>compenſe of her faith, which wonderfully en<g ref="char:EOLhyphen"/>creaſed when they brought her a Relick and picture of the Saint; to whom ſhe offered a heart of ſiluer, and promiſed to procure a ſolemne Maſs to be ſung, and in caſe ſhe were deliuered of a ſon, ſhe would giue him the name of <hi>Francis Xauerius.</hi>
+            </p>
+            <p>As ſhe rolled this ſweet thought in her minde ſhe ſowned away, &amp; remained ſo a long time without motion, ſo that euery one thought ſhe was dead. Coming to herſelf again, ſhe comforted thoſe which were about her, with words which abundantly teſtifyed the confi<g ref="char:EOLhyphen"/>dence of her heart, ſaying vnto them with a languiſhing voice, <hi>Aſſuredly S. Xauerius will help me, he will cure me of my Pain<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, and in fine he will ſaue my life, and the life of my child.</hi>
+            </p>
+            <p>The Phyſitian being conſcious of theſe ſtrange kinds of euils and miſeries of the good woman, fearing leaſt the bowels of the mo<g ref="char:EOLhyphen"/>ther might come to be the graue of her vnborn child, cauſed a Surgeon to be called, to be ready to open the womb of the ſick party, in caſe ſhe ſhould come to dy, that ſo the infant might be baptized if it were yet aliue. A litle after, ſownings, and the ordinary ſymptomes followed one another with ſuch violence, that
+<pb n="59" facs="tcp:50463:35"/> the ſick party had the Holy candle in her hand a long time without any ſigne of life. Hauing continued in this manner inſenſible for a time, by litle and litle ſhe opened her eyes, and be<g ref="char:EOLhyphen"/>ſought her friends to ſay one <hi>Pater</hi> and <hi>Aue</hi> in honor of the great Saint, from whoſe bounty ſhe hoped to obtain her cure.</p>
+            <p>A Father her Co<g ref="char:cmbAbbrStroke">̄</g>feſſarius, who was in a cham<g ref="char:EOLhyphen"/>ber neer her, ſet himſelf to ſay the Lytanies of all the Saints, and when he had pronounced three times the name of S. <hi>Xauerius,</hi> behold without feeling the cruel approches, and ſharp pangs of child birth, ſhe was deliuered of a ſon, whoſe happy birth ſweetned the grief, which the ſad loſs of her other children had cauſed in her. Since this her ſafe and fauora<g ref="char:EOLhyphen"/>ble deliuery, ſhe, together with her litle Infant, has enjoyed perfect health, without being troubled from that time with thoſe charmes and witchcrafts, which oppugned her child-bearing with ſo many anguiſhes &amp; grieuances.</p>
+            <p>
+               <hi>The Approbation of this last Fauor by the most Reuerend Bishop of Anwerp,</hi> F. Ambroſius Ca<g ref="char:EOLhyphen"/>pello, <hi>for breuity ſake I haue omitted. In which approbation, after due examen by commiſſarys by him to that purpoſe appointed, he declares that this Fauor, [for ſo he stiles it only, and not an abſolute Mrracle] may piouſly and prudently be belieued to haue been receiued by the ſingular aſſistance of S.</hi> Francis Xauerius. <hi>The omnipotent and most merciful JES<g ref="char:V">Ʋ</g>S, through the interceſſion of the ſame his great Instrument in the conuerſion of ſouls, work many like fauors for his humble Ca<g ref="char:EOLhyphen"/>tholick Clients in England, and compell by his Holy</hi>
+               <pb n="60" facs="tcp:50463:36"/> 
+               <hi>grace all misbelieuers to ſay to this Great Apostle and Doctor of the Roman-Catholick Church, what Ni<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>demus ſaid of old to Christ our Lord, in like circumstances, Rabbi ſcimus &amp;c. Sir, we know that you are a maſter come from God, for no man could work thoſe ſignes which thou doeſt vnles God were with him. But may they neuer deſerue to hear that of our Bleſſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d Sauiour concerning the obſtinate Iews Io.</hi> 15. <hi>Si opera non fec<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſſem in eis quae nemo alius fecit, peccatum non hab<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rent &amp;c. If I had not don works amongst them which no other has don they would not haue ſinned. If I had not come and ſpoken vnto them, they would not haue ſinned, but now they haue no excuſe for their ſin. Amen.</hi>
+            </p>
+            <closer>Ad majorem Dei &amp; Sancti XAVERII gloriam.</closer>
+            <trailer>FINIS.</trailer>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:50463:36"/>
+            <head>THE RAPTURE Of an Affectionate SOUL before <hi>A CR<g ref="char:V">Ʋ</g>CIFIX.</hi> Compoſed in Latin By the HOLY FATHER, S. <hi>FRANCIS XAVERI<g ref="char:V">Ʋ</g>S.</hi>
+            </head>
+            <l>O GOD, I love Thee, not to get</l>
+            <l>Thy Favour to be Saved; nor yet</l>
+            <l>To ſhun that ſad Eternal Lot,</l>
+            <l>Deſign'd for thoſe that love Thee not.</l>
+            <l>Thou, Thou, my JESU, to thy Loſs,</l>
+            <l>Would'ſt needs Embrace me on the Croſs:</l>
+            <l>Thou would'ſt endure both Nayls and Lance,</l>
+            <l>Diſgrace and Dolours; with a Trance</l>
+            <l>Of bloody Sweat, and boundleſs Seas</l>
+            <l>Of Anguiſhes and Bitterneſs;</l>
+            <l>Nay, even Death's laſt Agony:</l>
+            <l>And this for me, a Foe to Thee.</l>
+            <l>Moſt Loving JESUS, ſhall this move</l>
+            <l>No like Return of Love for Love?</l>
+            <l>Above all things I love Thee beſt;</l>
+            <l>Yet not for Hope of Intereſt;</l>
+            <l>Nor for to gain Heaven's Promiſed Land;</l>
+            <l>Nor for to ſtop thy threatning Hand:</l>
+            <l>But as Thou lovedſt me, ſo do I</l>
+            <l>Love Three, and ever ſhall, meerly</l>
+            <l>Becauſe Thou art my King, my GOD,</l>
+            <l>Of Love the Source, and Period. <hi>AMEN.</hi>
+            </l>
+         </div>
+         <div type="oblation">
+            <pb facs="tcp:50463:37"/>
+            <head>AN OBLATION, By which <hi>S. IGNATIUS of LOYOLA</hi> frequently every Day Offered himſelf to <hi>GOD.</hi>
+            </head>
+            <p>REceive, O LORD, all my Liberty, my Memo<g ref="char:EOLhyphen"/>ry, my Underſtanding, and my whole Will. You ave given me All that I Have, All that I Poſſeſs; and I give back, and ſurrender All to Your Divine Will, that You may abſolutely diſpoſe of All. Give me only Your Love, and Your Grace, and I am Rich enough. I have nothing more to Ask.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:50463:37"/>
+         </div>
+      </body>
+   </text>
+</TEI>
